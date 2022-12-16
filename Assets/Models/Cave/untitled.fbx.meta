@@ -1,0 +1,401 @@
+fileFormatVersion: 2
+guid: 8ca2757291c77f84ebb314fda407dc03
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u1_v1
+    second: {fileID: 2100000, guid: 0f70d822cb3778942a2bdd9ff85016a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u1_v2
+    second: {fileID: 2100000, guid: bf524c244abfd254bbda0d73341a610e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u1_v3
+    second: {fileID: 2100000, guid: a03f3026427f55e4183e354bb24e4f70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u1_v4
+    second: {fileID: 2100000, guid: 4d5a295fc4039bd419ed8730b3c56007, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u1_v5
+    second: {fileID: 2100000, guid: f0a596c05e6736c439f5ac9a62740a18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u1_v6
+    second: {fileID: 2100000, guid: 2d4dba03658e4b744bdb6f39ac0bbca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u1_v7
+    second: {fileID: 2100000, guid: ef355bb981a33e84cbb697753baea8df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u1_v8
+    second: {fileID: 2100000, guid: a63f0bf39f0639b48a8c7d9ca2983e30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u2_v1
+    second: {fileID: 2100000, guid: 08db80fe471682e4186dc613e4257f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u2_v2
+    second: {fileID: 2100000, guid: 08db80fe471682e4186dc613e4257f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u2_v3
+    second: {fileID: 2100000, guid: 17f3e53513bb073459989d0d91d18a77, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u2_v4
+    second: {fileID: 2100000, guid: ba774d75528295345915bfbd951b17f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u2_v5
+    second: {fileID: 2100000, guid: d131b05515d2802498c807dd094d51b6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u2_v6
+    second: {fileID: 2100000, guid: c13213b2a652477448840d9a36795575, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u2_v7
+    second: {fileID: 2100000, guid: 8fb9070fa09acb44aae29ccab11fc57f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u2_v8
+    second: {fileID: 2100000, guid: 761170e1e4b6e284db3e20c448cd5cb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u3_v1
+    second: {fileID: 2100000, guid: af4807e4797cb5342a3741bc02fa1132, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u3_v2
+    second: {fileID: 2100000, guid: a959c6c1b8924a04891e8fe51c76af19, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u3_v3
+    second: {fileID: 2100000, guid: b516c632515250843a9f19d4359c3c25, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u3_v4
+    second: {fileID: 2100000, guid: 69ea7fce84ac2fc489ad987087a4a36b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u3_v5
+    second: {fileID: 2100000, guid: 2f29d88ca6f20e84c86fcfbe608d97c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u3_v6
+    second: {fileID: 2100000, guid: e198713247d543d45a63c444260f948f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u3_v7
+    second: {fileID: 2100000, guid: 4ed95a073849a6249a1a8bf67f1fca9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u3_v8
+    second: {fileID: 2100000, guid: e6b6d135c49073946ba1ac7e1f55a177, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u4_v1
+    second: {fileID: 2100000, guid: 85828b2511e986945a9bc1e91a0c197d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u4_v2
+    second: {fileID: 2100000, guid: 845dadee960742a4199e19cf25fab79a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u4_v3
+    second: {fileID: 2100000, guid: f52653a99b6627c4c8b79ecd25d4fd21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u4_v4
+    second: {fileID: 2100000, guid: 6c3ee52204feb0a49859054b142e51f5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u4_v5
+    second: {fileID: 2100000, guid: 491d9223a7fad184ba0c2d6fe47087ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u4_v6
+    second: {fileID: 2100000, guid: 9f2652130b7e9984da21154fa64223ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u4_v7
+    second: {fileID: 2100000, guid: d83910dcab313fc40a2832b22406e5cc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u5_v1
+    second: {fileID: 2100000, guid: 376048dc762705549a953ecd1b87b116, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u5_v2
+    second: {fileID: 2100000, guid: a3ebdf52842ab7543beade79d9065649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u5_v3
+    second: {fileID: 2100000, guid: aa1c284070b95b74a87812587e20f6f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u5_v4
+    second: {fileID: 2100000, guid: 47bb0bbbf04556e4486064eed8b3885c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u5_v5
+    second: {fileID: 2100000, guid: 62489f92b28ee54478e9fb65cfee1853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u5_v6
+    second: {fileID: 2100000, guid: e28501d399c50c54eaa885a7656cefec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u5_v7
+    second: {fileID: 2100000, guid: 9f71bdd083fff2e43842ea2914c2fab7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u6_v1
+    second: {fileID: 2100000, guid: 315828ad9c3184c489388864da953ba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u6_v2
+    second: {fileID: 2100000, guid: 6e2acb326805813409d54731e1de95b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u6_v3
+    second: {fileID: 2100000, guid: 0de526cfa95458d42a6a84e08a125fbe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u6_v4
+    second: {fileID: 2100000, guid: d18ea3dcba622f041a4fde258d201343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u6_v5
+    second: {fileID: 2100000, guid: 3e3f41d39396c4544be7ce6dc462ca98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u6_v6
+    second: {fileID: 2100000, guid: 7cf206df9036b2347b72f3d58f093d3e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u6_v7
+    second: {fileID: 2100000, guid: ff4c55e0ec8975e47b56810800e12538, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u7_v1
+    second: {fileID: 2100000, guid: 8393c1d583f76bd49a0414fbaf152e07, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u7_v2
+    second: {fileID: 2100000, guid: c5a496dbeafdb6a48b4ae400ef75142b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u7_v3
+    second: {fileID: 2100000, guid: 80665cbdadf16864ca800c9a2e1289e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u7_v4
+    second: {fileID: 2100000, guid: 618c72d0fd5645b429e747e2831e14cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u7_v5
+    second: {fileID: 2100000, guid: 1ca415cab248f9c49b45295bb4c9d5c8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u7_v6
+    second: {fileID: 2100000, guid: 78a6e908c451c71439a1914409ae1956, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u7_v7
+    second: {fileID: 2100000, guid: e0710484637a78946b1e9aa082ddf47d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u8_v1
+    second: {fileID: 2100000, guid: 0e045feffa4643545a330364f5d01856, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u8_v2
+    second: {fileID: 2100000, guid: ea86fa412df785a419c1d5653a2ab19b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u8_v3
+    second: {fileID: 2100000, guid: bfba73c4df9280d4fa128a9c57b40f33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u8_v4
+    second: {fileID: 2100000, guid: 8ac650b30b2340047971372fa2adf6dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u8_v5
+    second: {fileID: 2100000, guid: 8a0cbc1a07c22b149b1cbf0eed007f7b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u8_v6
+    second: {fileID: 2100000, guid: 3302bd3ea6537824fbbed0159fc1d3c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Arhantrhropos_500K_u8_v7
+    second: {fileID: 2100000, guid: 9ebcfa77b9a77594bb9514f9779047cf, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
