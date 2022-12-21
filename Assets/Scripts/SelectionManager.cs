@@ -7,6 +7,7 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private string selectableTag = "Selectable";
     [SerializeField] private Material highlightMaterial;
     [SerializeField] private Material defaultMaterial;
+    [SerializeField, Range(0,5)] private float maxDistance = 2.5f;
 
     private Transform _selection;
 
@@ -22,9 +23,10 @@ public class SelectionManager : MonoBehaviour
 
         var ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width/2f, Screen.height/2f, 0f));
         RaycastHit hit;
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray, out hit, maxDistance,LayerMask.GetMask("Selectable")))
         {
             var selection = hit.transform;
+            Debug.Log("Selection: " + selection);
             if (selection.CompareTag(selectableTag))
             {
                 var selectionRenderer = selection.GetComponent<Renderer>();
@@ -35,5 +37,9 @@ public class SelectionManager : MonoBehaviour
                 _selection = selection;
             }
         }
+    }
+
+    void OnDrawGizmos() {
+        Debug.DrawRay(Camera.main.transform.position, Camera.main.transform.forward , Color.cyan);
     }
 }
