@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SelectionManager : MonoBehaviour
 {
-    [SerializeField] private string selectableTag = "Selectable";
-    [SerializeField, Range(0,5)] private float maxDistance = 2.5f;
+    [SerializeField, Range(0,5)] private float maxDistance = 2f;
     [SerializeField] private Color color;
+    private Renderer selectionRenderer;
 
     private Transform _selection;
 
@@ -18,15 +18,14 @@ public class SelectionManager : MonoBehaviour
         if (Physics.Raycast(ray, out hit, maxDistance,LayerMask.GetMask("Selectable")))
         {
             _selection = hit.transform;
-            Debug.Log("Selection: " + _selection);
-            var selectionRenderer = _selection.GetComponent<Renderer>();
+            selectionRenderer = _selection.GetComponent<Renderer>();
             if (selectionRenderer != null)
             {
                 selectionRenderer.material.SetColor("_BaseColor", color);
             }
         }else if (_selection != null)
         {
-            var selectionRenderer = _selection.GetComponent<Renderer>();
+            selectionRenderer = _selection.GetComponent<Renderer>();
             selectionRenderer.material.SetColor("_BaseColor", new Color(1, 1, 1, 1));
             _selection = null;
         }
