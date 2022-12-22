@@ -5,37 +5,30 @@ using UnityEngine;
 public class SelectionManager : MonoBehaviour
 {
     [SerializeField] private string selectableTag = "Selectable";
-    [SerializeField] private Material highlightMaterial;
-    [SerializeField] private Material defaultMaterial;
     [SerializeField, Range(0,5)] private float maxDistance = 2.5f;
+    [SerializeField] private Color color;
 
     private Transform _selection;
 
     // Update is called once per frame
     void Update()
     {
-        if (_selection != null)
-        {
-            var selectionRenderer = _selection.GetComponent<Renderer>();
-            selectionRenderer.material = defaultMaterial;
-            _selection = null;
-        }
-
         var ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width/2f, Screen.height/2f, 0f));
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, maxDistance,LayerMask.GetMask("Selectable")))
         {
-            var selection = hit.transform;
-            Debug.Log("Selection: " + selection);
-            if (selection.CompareTag(selectableTag))
+            _selection = hit.transform;
+            Debug.Log("Selection: " + _selection);
+            var selectionRenderer = _selection.GetComponent<Renderer>();
+            if (selectionRenderer != null)
             {
-                var selectionRenderer = selection.GetComponent<Renderer>();
-                if (selectionRenderer != null)
-                {
-                    selectionRenderer.material = highlightMaterial;
-                }
-                _selection = selection;
+                selectionRenderer.material.SetColor("_BaseColor", color);
             }
+        }else if (_selection != null)
+        {
+            var selectionRenderer = _selection.GetComponent<Renderer>();
+            selectionRenderer.material.SetColor("_BaseColor", new Color(1, 1, 1, 1));
+            _selection = null;
         }
     }
 
