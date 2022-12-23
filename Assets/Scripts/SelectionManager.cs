@@ -6,7 +6,6 @@ public class SelectionManager : MonoBehaviour
 {
     [SerializeField, Range(0,5)] private float maxDistance = 2f;
     private Renderer selectionRenderer;
-    private Material tempMat;
 
     private Transform _selection;
 
@@ -19,10 +18,7 @@ public class SelectionManager : MonoBehaviour
         {
             _selection = hit.transform;
             selectionRenderer = _selection.GetComponent<Renderer>();
-            if (selectionRenderer != null)
-            {
-                selectionRenderer.materials[1].SetFloat("_Alpha", 1);
-            }
+            selectionRenderer?.materials[1].SetFloat("_Alpha", 1);
         }else if (_selection != null)
         {
             selectionRenderer = _selection.GetComponent<Renderer>();
