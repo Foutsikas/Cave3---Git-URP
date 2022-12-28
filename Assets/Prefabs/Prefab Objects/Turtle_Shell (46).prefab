@@ -121,7 +121,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4824255917216358876}
-  - component: {fileID: 2311430301781733777}
+  - component: {fileID: 383858816072158237}
   m_Layer: 0
   m_Name: Turtle_Shell (46)
   m_TagString: Untagged
@@ -146,7 +146,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2311430301781733777
+--- !u!114 &383858816072158237
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -155,9 +155,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5312246031481682790}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49059120d0015ab46bec10417ff25efc, type: 3}
+  m_Script: {fileID: 11500000, guid: babba4f42f2140049b6148e0c00e83f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SceneToLoad: {fileID: 102900000, guid: 65ff5745be940a34d9f6d92d443c6e04, type: 3}
   UI: {fileID: 1625645549517743550}
 --- !u!1001 &4381649882149764776
 PrefabInstance:
@@ -314,7 +315,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2311430301781733777}
+      objectReference: {fileID: 0}
     - target: {fileID: 8457475492497853807, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
