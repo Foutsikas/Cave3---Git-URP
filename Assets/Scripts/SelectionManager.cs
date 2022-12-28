@@ -13,6 +13,7 @@ public class SelectionManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        CollectButton.SetActive(false);
         var ray = Camera.main.ScreenPointToRay(new Vector3(Screen.width/2f, Screen.height/2f, 0f));
         RaycastHit hit;
         if (Physics.Raycast(ray, out hit, maxDistance, LayerMask.GetMask("Selectable")))
@@ -26,7 +27,6 @@ public class SelectionManager : MonoBehaviour
             selectionRenderer = _selection.GetComponent<Renderer>();
             selectionRenderer.materials[1].SetFloat("_Alpha", 0);
             _selection = null;
-            CollectButton.SetActive(false);
         }
     }
 
@@ -44,7 +44,7 @@ public class SelectionManager : MonoBehaviour
             if (bc != null)
             {
                 Destroy(bc.gameObject);
-                CollectButton.SetActive(false);
+                ObjectSpawner.itemCounter++;
             }
         }
     }
