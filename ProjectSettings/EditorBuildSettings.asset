@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cave Scene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Cave3 MatchingGame.unity
+    guid: 4ad019040237d384c83c120b03c20cdd
+  - enabled: 1
+    path: Assets/Scenes/Cave3ImagePuzzle.unity
+    guid: 65ff5745be940a34d9f6d92d443c6e04
+  - enabled: 1
+    path: Assets/Scenes/Cave3Quiz.unity
+    guid: 0a155cb6e8881b04e84a4b415af76751
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
       type: 2}
