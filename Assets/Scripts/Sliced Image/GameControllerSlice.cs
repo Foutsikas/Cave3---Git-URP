@@ -2,10 +2,9 @@ using UnityEngine;
 using System.Linq;
 public class GameControllerSlice : MonoBehaviour
 {
-    [SerializeField]
-    private GameObject[] PicturePieces;
-    [SerializeField]
-    private GameObject WinPanel;
+    [SerializeField] private GameObject[] PicturePieces;
+
+    [SerializeField] private GameObject WinPanel;
 
     public static bool youWin = false;
     private readonly int[] randomZ = new int[] {90, 180, 270};

@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class TouchRotate : MonoBehaviour
 {
-    private void OnMouseDown()
+    public void OnMouseDown()
     {
         if (!GameControllerSlice.youWin)
-            transform.Rotate(0f, 0f, -90);
+            transform.Rotate(0, 0, -90);
     }
 }

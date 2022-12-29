@@ -158,7 +158,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: babba4f42f2140049b6148e0c00e83f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: {fileID: 102900000, guid: 65ff5745be940a34d9f6d92d443c6e04, type: 3}
+  SceneToLoad: {fileID: 102900000, guid: 747fd6dc278cd4c4c91549808f57d514, type: 3}
   UI: {fileID: 1625645549517743550}
 --- !u!1001 &4381649882149764776
 PrefabInstance:
@@ -315,16 +315,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 383858816072158237}
     - target: {fileID: 8457475492497853807, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CloseUIButton
+      value: EnterSceneButton
       objectReference: {fileID: 0}
     - target: {fileID: 8457475492497853807, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CloseUI, Assembly-CSharp
+      value: SceneButtonEnter, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43fd06c7ee789b540b7a50622335dd0b, type: 3}
