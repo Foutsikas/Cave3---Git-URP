@@ -13,6 +13,7 @@ public class ObjectSpawner : MonoBehaviour
     public TMP_Text _CollectedItems;
     public static int itemCounter;
     public GameObject UI;
+    public GameObject Joysticks;
 
     void Start()
     {
@@ -37,6 +38,10 @@ public class ObjectSpawner : MonoBehaviour
         {
             //Instantiate(Dupes[i], spawnLocations[i].transform.position, Quaternion.Euler(0,0,0));
             SpawnedItem [i] = Instantiate(Dupes[i], spawnLocations[i].transform.position, Quaternion.Euler(0,0,0));
+            if (SpawnedItem[i].GetComponent<SceneButtonEnter>() != null)
+            {
+                SpawnedItem[i].GetComponent<SceneButtonEnter>().JoystickSet = Joysticks;
+            }
         }
     }
 

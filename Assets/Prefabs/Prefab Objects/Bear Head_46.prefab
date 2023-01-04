@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: {fileID: 102900000, guid: 4ad019040237d384c83c120b03c20cdd, type: 3}
-  UI: {fileID: 2559415165021628142}
+  Info_UI: {fileID: 2559415165021628142}
 --- !u!1 &6909137006473332987
 GameObject:
   m_ObjectHideFlags: 0

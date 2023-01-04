@@ -26,7 +26,7 @@ public class GameControllerSlice : MonoBehaviour
     {
         for (int i = 0; i < PicturePieces.Length; i++)
         {
-            randomIndex = Random.Range(1, randomZ.Length);
+            randomIndex = Random.Range(0, randomZ.Length);
             PicturePieces[i].transform.Rotate(0, 0, randomZ[randomIndex]);
         }
     }

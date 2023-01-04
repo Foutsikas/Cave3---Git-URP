@@ -9,6 +9,7 @@ public class SelectionManager : MonoBehaviour
     private Renderer selectionRenderer;
 
     private Transform _selection;
+    [SerializeField] private GameObject Joysticks;
 
     // Update is called once per frame
     void Update()

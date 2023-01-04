@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 159812281}
   - component: {fileID: 159812284}
   - component: {fileID: 159812282}
-  - component: {fileID: 159812283}
   m_Layer: 0
   m_Name: Petralona-5_2
   m_TagString: Untagged
@@ -151,8 +150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 159812280}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0016940435, y: -10.696838, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 0.0016987851, y: -10.696836, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -184,18 +183,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
---- !u!114 &159812283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 159812280}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &159812284
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -260,7 +247,6 @@ GameObject:
   - component: {fileID: 445992604}
   - component: {fileID: 445992605}
   - component: {fileID: 445992607}
-  - component: {fileID: 445992606}
   m_Layer: 0
   m_Name: Petralona-2_2
   m_TagString: Untagged
@@ -276,8 +262,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 445992603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6106207, y: 5.0954337, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -2.6106243, y: 5.095431, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -336,18 +322,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &445992606
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 445992603}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &445992607
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -385,7 +359,6 @@ GameObject:
   - component: {fileID: 474527707}
   - component: {fileID: 474527708}
   - component: {fileID: 474527710}
-  - component: {fileID: 474527709}
   m_Layer: 0
   m_Name: Petralona-1_1
   m_TagString: Untagged
@@ -401,8 +374,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474527706}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.8319616, y: 10.359474, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -7.831959, y: 10.359477, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -460,18 +433,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &474527709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474527706}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &474527710
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -482,7 +443,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -748,7 +709,6 @@ GameObject:
   - component: {fileID: 651254781}
   - component: {fileID: 651254782}
   - component: {fileID: 651254784}
-  - component: {fileID: 651254783}
   m_Layer: 0
   m_Name: Petralona-3_4
   m_TagString: Untagged
@@ -764,8 +724,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 651254780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.8319616, y: -0.16865698, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 7.831959, y: -0.16865818, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -824,18 +784,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &651254783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651254780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &651254784
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1008,7 +956,6 @@ GameObject:
   - component: {fileID: 748701419}
   - component: {fileID: 748701422}
   - component: {fileID: 748701420}
-  - component: {fileID: 748701421}
   m_Layer: 0
   m_Name: Petralona-4_3
   m_TagString: Untagged
@@ -1024,8 +971,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 748701418}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6106207, y: -5.4755473, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 2.6106243, y: -5.47555, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -1057,18 +1004,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
---- !u!114 &748701421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 748701418}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &748701422
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1186,7 +1121,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &807055186
 MonoBehaviour:
@@ -1203,6 +1138,94 @@ MonoBehaviour:
   loadingScreen: {fileID: 1672246140}
   slider: {fileID: 1627736925}
   progressText: {fileID: 2012891946}
+--- !u!1 &865786244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 865786247}
+  - component: {fileID: 865786246}
+  - component: {fileID: 865786245}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &865786245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865786244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018,
+    type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+--- !u!114 &865786246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865786244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &865786247
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865786244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &874265132
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,7 +1237,6 @@ GameObject:
   - component: {fileID: 874265133}
   - component: {fileID: 874265136}
   - component: {fileID: 874265134}
-  - component: {fileID: 874265135}
   m_Layer: 0
   m_Name: Petralona-4_1
   m_TagString: Untagged
@@ -1230,8 +1252,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 874265132}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.8319616, y: -5.4755473, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -7.831959, y: -5.47555, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -1263,18 +1285,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
---- !u!114 &874265135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 874265132}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &874265136
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1402,7 +1412,6 @@ GameObject:
   - component: {fileID: 1056530306}
   - component: {fileID: 1056530309}
   - component: {fileID: 1056530307}
-  - component: {fileID: 1056530308}
   m_Layer: 0
   m_Name: Petralona-4_4
   m_TagString: Untagged
@@ -1418,8 +1427,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1056530305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.8319616, y: -5.4755473, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 7.831959, y: -5.47555, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -1451,18 +1460,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
---- !u!114 &1056530308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056530305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1056530309
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1527,7 +1524,6 @@ GameObject:
   - component: {fileID: 1170056101}
   - component: {fileID: 1170056102}
   - component: {fileID: 1170056104}
-  - component: {fileID: 1170056103}
   m_Layer: 0
   m_Name: Petralona-3_1
   m_TagString: Untagged
@@ -1543,8 +1539,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1170056100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.8319616, y: -0.16865698, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -7.831959, y: -0.16865818, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -1603,18 +1599,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1170056103
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1170056100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1170056104
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1652,7 +1636,6 @@ GameObject:
   - component: {fileID: 1216445666}
   - component: {fileID: 1216445669}
   - component: {fileID: 1216445667}
-  - component: {fileID: 1216445668}
   m_Layer: 0
   m_Name: Petralona-4_2
   m_TagString: Untagged
@@ -1668,8 +1651,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1216445665}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6106207, y: -5.4755473, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -2.6106243, y: -5.47555, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -1701,18 +1684,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
---- !u!114 &1216445668
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1216445665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1216445669
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1777,7 +1748,6 @@ GameObject:
   - component: {fileID: 1371041442}
   - component: {fileID: 1371041443}
   - component: {fileID: 1371041445}
-  - component: {fileID: 1371041444}
   m_Layer: 0
   m_Name: Petralona-3_2
   m_TagString: Untagged
@@ -1793,8 +1763,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1371041441}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6106207, y: -0.16865698, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -2.6106243, y: -0.16865818, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -1853,18 +1823,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1371041444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371041441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1371041445
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2037,7 +1995,6 @@ GameObject:
   - component: {fileID: 1419311540}
   - component: {fileID: 1419311541}
   - component: {fileID: 1419311543}
-  - component: {fileID: 1419311542}
   m_Layer: 0
   m_Name: Petralona-1_4
   m_TagString: Untagged
@@ -2053,8 +2010,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1419311539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.8319616, y: 10.359474, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 7.831959, y: 10.359477, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -2113,18 +2070,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1419311542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1419311539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1419311543
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2162,7 +2107,6 @@ GameObject:
   - component: {fileID: 1459094686}
   - component: {fileID: 1459094687}
   - component: {fileID: 1459094689}
-  - component: {fileID: 1459094688}
   m_Layer: 0
   m_Name: Petralona-1_2
   m_TagString: Untagged
@@ -2178,8 +2122,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459094685}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.6106207, y: 10.359474, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -2.6106243, y: 10.359477, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -2238,18 +2182,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1459094688
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1459094685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1459094689
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2460,7 +2392,6 @@ GameObject:
   - component: {fileID: 1833850829}
   - component: {fileID: 1833850830}
   - component: {fileID: 1833850832}
-  - component: {fileID: 1833850831}
   m_Layer: 0
   m_Name: Petralona-1_3
   m_TagString: Untagged
@@ -2476,8 +2407,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1833850828}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6106207, y: 10.359474, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 2.6106243, y: 10.359477, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -2535,18 +2466,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1833850831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833850828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1833850832
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2607,8 +2526,9 @@ RectTransform:
   m_Children:
   - {fileID: 1005858277}
   - {fileID: 606911585}
+  - {fileID: 2095222276}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2649,7 +2569,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 0.531
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -2667,13 +2587,13 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 2095222275}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: -915421035
+  m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!222 &1840601073
@@ -2684,94 +2604,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840601068}
   m_CullTransparentMesh: 1
---- !u!1 &1909024655
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1909024658}
-  - component: {fileID: 1909024657}
-  - component: {fileID: 1909024656}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1909024656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909024655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_MoveRepeatDelay: 0.5
-  m_MoveRepeatRate: 0.1
-  m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_DeselectOnBackgroundClick: 1
-  m_PointerBehavior: 0
---- !u!114 &1909024657
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909024655}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &1909024658
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909024655}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1932532894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2783,7 +2615,6 @@ GameObject:
   - component: {fileID: 1932532895}
   - component: {fileID: 1932532896}
   - component: {fileID: 1932532898}
-  - component: {fileID: 1932532897}
   m_Layer: 0
   m_Name: Petralona-2_1
   m_TagString: Untagged
@@ -2799,8 +2630,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932532894}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.8319616, y: 5.0954337, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -7.831959, y: 5.095431, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -2859,18 +2690,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1932532897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932532894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1932532898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2908,7 +2727,6 @@ GameObject:
   - component: {fileID: 1964315783}
   - component: {fileID: 1964315784}
   - component: {fileID: 1964315786}
-  - component: {fileID: 1964315785}
   m_Layer: 0
   m_Name: Petralona-2_3
   m_TagString: Untagged
@@ -2924,8 +2742,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964315782}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6106207, y: 5.0954337, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 2.6106243, y: 5.095431, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -2983,18 +2801,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1964315785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1964315782}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1964315786
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3032,7 +2838,6 @@ GameObject:
   - component: {fileID: 1967359198}
   - component: {fileID: 1967359199}
   - component: {fileID: 1967359201}
-  - component: {fileID: 1967359200}
   m_Layer: 0
   m_Name: Petralona-3_3
   m_TagString: Untagged
@@ -3048,8 +2853,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967359197}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6106207, y: -0.16865698, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 2.6106243, y: -0.16865818, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -3108,18 +2913,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1967359200
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967359197}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &1967359201
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3157,7 +2950,6 @@ GameObject:
   - component: {fileID: 1983696795}
   - component: {fileID: 1983696798}
   - component: {fileID: 1983696796}
-  - component: {fileID: 1983696797}
   m_Layer: 0
   m_Name: Petralona-5-1
   m_TagString: Untagged
@@ -3173,8 +2965,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983696794}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.212771, y: -10.696838, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: -5.212765, y: -10.696836, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -3206,18 +2998,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
---- !u!114 &1983696797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983696794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1983696798
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3293,7 +3073,6 @@ GameObject:
   - component: {fileID: 2087803321}
   - component: {fileID: 2087803322}
   - component: {fileID: 2087803324}
-  - component: {fileID: 2087803323}
   m_Layer: 0
   m_Name: Petralona-2_4
   m_TagString: Untagged
@@ -3309,8 +3088,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087803320}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.8319616, y: 5.0954337, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 7.831959, y: 5.095431, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -3369,18 +3148,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2087803323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2087803320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &2087803324
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3418,12 +3185,13 @@ GameObject:
   - component: {fileID: 2095222276}
   - component: {fileID: 2095222275}
   - component: {fileID: 2095222277}
+  - component: {fileID: 2095222278}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!20 &2095222275
 Camera:
@@ -3434,8 +3202,8 @@ Camera:
   m_GameObject: {fileID: 2095222273}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.6792453, g: 0.47975448, b: 0.17621931, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -3451,8 +3219,8 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 100
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3476,12 +3244,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2095222273}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 563.4, y: 302.9, z: -162.28204}
-  m_LocalScale: {x: 0.60672987, y: 0.60672987, z: 0.60672987}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_Father: {fileID: 1840601069}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2095222277
 MonoBehaviour:
@@ -3516,6 +3284,18 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &2095222278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095222273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2117018566
 GameObject:
   m_ObjectHideFlags: 0
@@ -3527,7 +3307,6 @@ GameObject:
   - component: {fileID: 2117018567}
   - component: {fileID: 2117018570}
   - component: {fileID: 2117018568}
-  - component: {fileID: 2117018569}
   m_Layer: 0
   m_Name: Petralona-5-3
   m_TagString: Untagged
@@ -3543,8 +3322,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117018566}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.229811, y: -10.696838, z: 5.589999}
-  m_LocalScale: {x: 4.279748, y: 4.279748, z: 4.279748}
+  m_LocalPosition: {x: 5.229807, y: -10.696836, z: 5.5899987}
+  m_LocalScale: {x: 4.2797475, y: 4.2797475, z: 4.2797475}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1005858277}
@@ -3576,18 +3355,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
---- !u!114 &2117018569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2117018566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &2117018570
 SpriteRenderer:
   m_ObjectHideFlags: 0

@@ -165,15 +165,16 @@ MonoBehaviour:
   - {fileID: 1182474802398537315, guid: dabc6e9e728b9664b924db27697d53f2, type: 3}
   - {fileID: 6241993781297914285, guid: 30d63f98c43e7e64a860428d56292c19, type: 3}
   - {fileID: 5364163090746771182, guid: 17f694dc00a09084383338e3881179a5, type: 3}
-  - {fileID: 5312246031481682790, guid: f1becb62abfe09f418a9b2d277fcbcd8, type: 3}
+  - {fileID: 603121298224422885, guid: 22efeb7607d4d104ea6d96e0a080e75d, type: 3}
   SpawnedItem:
   - {fileID: 2481453020785291298, guid: 8e1823c3e267a1f4fad348d472af4793, type: 3}
   - {fileID: 1182474802398537315, guid: dabc6e9e728b9664b924db27697d53f2, type: 3}
   - {fileID: 6241993781297914285, guid: 30d63f98c43e7e64a860428d56292c19, type: 3}
   - {fileID: 5364163090746771182, guid: 17f694dc00a09084383338e3881179a5, type: 3}
-  - {fileID: 5312246031481682790, guid: f1becb62abfe09f418a9b2d277fcbcd8, type: 3}
+  - {fileID: 603121298224422885, guid: 22efeb7607d4d104ea6d96e0a080e75d, type: 3}
   _CollectedItems: {fileID: 1642318773}
   UI: {fileID: 1480712791}
+  Joysticks: {fileID: 1201961441}
 --- !u!4 &27913414
 Transform:
   m_ObjectHideFlags: 0
@@ -2377,6 +2378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDistance: 2
   CollectButton: {fileID: 1548938332}
+  Joysticks: {fileID: 0}
 --- !u!1 &1247183273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,7 +3417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: {fileID: 102900000, guid: 0a155cb6e8881b04e84a4b415af76751, type: 3}
-  UI: {fileID: 159664233}
+  Info_UI: {fileID: 0}
 --- !u!1001 &1115822512569934354
 PrefabInstance:
   m_ObjectHideFlags: 0
