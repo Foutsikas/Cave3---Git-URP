@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class UITrigger : MonoBehaviour
 {
-    public GameObject UI;
+    private GameObject UI;
 
-    void OnDestroy()
+    void OnAwake()
     {
-        if (!UI.activeInHierarchy)
-        {
-            UI.SetActive(true);
-        }
+        GetComponent<SceneButtonEnter>().InfoUI = UI;
     }
 }

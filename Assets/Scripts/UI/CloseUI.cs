@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class CloseUI : MonoBehaviour
 {
-    public GameObject UI;
+    private GameObject UI;
     public void CloseUIButton()
     {
+        GetComponent<SceneButtonEnter>().InfoUI = UI;
         UI.SetActive(false);
     }
 }

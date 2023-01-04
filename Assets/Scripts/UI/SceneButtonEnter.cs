@@ -6,13 +6,13 @@ public class SceneButtonEnter : MonoBehaviour
 {
     [SerializeField]
     Object SceneToLoad;
-    [SerializeField] GameObject Info_UI;
+    private GameObject UI;
     private GameObject Joysticks;
 
     public void EnterSceneButton()
     {
         SceneManager.LoadSceneAsync(SceneToLoad.name, LoadSceneMode.Additive);//LoadSceneMode.Additive);
-        Info_UI.SetActive(false);
+        UI.SetActive(false);
         Joysticks.SetActive(false);
     }
 
@@ -21,6 +21,14 @@ public class SceneButtonEnter : MonoBehaviour
         set
         {
             Joysticks = value;
+        }
+    }
+
+    public GameObject  InfoUI
+    {
+        set
+        {
+            UI = value;
         }
     }
 }

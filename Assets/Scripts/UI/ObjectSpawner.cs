@@ -14,6 +14,7 @@ public class ObjectSpawner : MonoBehaviour
     public static int itemCounter;
     public GameObject UI;
     public GameObject Joysticks;
+    public GameObject Info_UI;
 
     void Start()
     {
@@ -41,6 +42,7 @@ public class ObjectSpawner : MonoBehaviour
             if (SpawnedItem[i].GetComponent<SceneButtonEnter>() != null)
             {
                 SpawnedItem[i].GetComponent<SceneButtonEnter>().JoystickSet = Joysticks;
+                SpawnedItem [i].GetComponent<SceneButtonEnter>().InfoUI = Info_UI;
             }
         }
     }

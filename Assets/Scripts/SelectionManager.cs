@@ -10,6 +10,7 @@ public class SelectionManager : MonoBehaviour
 
     private Transform _selection;
     [SerializeField] private GameObject Joysticks;
+    public GameObject UI;
 
     // Update is called once per frame
     void Update()
@@ -46,6 +47,7 @@ public class SelectionManager : MonoBehaviour
             {
                 Destroy(bc.gameObject);
                 ObjectSpawner.itemCounter++;
+                UI.SetActive(true);
             }
         }
     }
