@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 159812281}
   - component: {fileID: 159812284}
   - component: {fileID: 159812282}
+  - component: {fileID: 159812285}
   m_Layer: 0
   m_Name: Petralona-5_2
   m_TagString: Untagged
@@ -236,6 +237,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &159812285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159812280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &445992603
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,6 +260,7 @@ GameObject:
   - component: {fileID: 445992604}
   - component: {fileID: 445992605}
   - component: {fileID: 445992607}
+  - component: {fileID: 445992608}
   m_Layer: 0
   m_Name: Petralona-2_2
   m_TagString: Untagged
@@ -348,6 +362,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &445992608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445992603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &474527706
 GameObject:
   m_ObjectHideFlags: 0
@@ -359,6 +385,7 @@ GameObject:
   - component: {fileID: 474527707}
   - component: {fileID: 474527708}
   - component: {fileID: 474527710}
+  - component: {fileID: 474527711}
   m_Layer: 0
   m_Name: Petralona-1_1
   m_TagString: Untagged
@@ -459,6 +486,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &474527711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474527706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &590718513
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +748,7 @@ GameObject:
   - component: {fileID: 651254781}
   - component: {fileID: 651254782}
   - component: {fileID: 651254784}
+  - component: {fileID: 651254785}
   m_Layer: 0
   m_Name: Petralona-3_4
   m_TagString: Untagged
@@ -810,6 +850,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &651254785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651254780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &731845356
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,6 +1008,7 @@ GameObject:
   - component: {fileID: 748701419}
   - component: {fileID: 748701422}
   - component: {fileID: 748701420}
+  - component: {fileID: 748701423}
   m_Layer: 0
   m_Name: Petralona-4_3
   m_TagString: Untagged
@@ -1057,6 +1110,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &748701423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748701418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &807055182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1302,7 @@ GameObject:
   - component: {fileID: 874265133}
   - component: {fileID: 874265136}
   - component: {fileID: 874265134}
+  - component: {fileID: 874265137}
   m_Layer: 0
   m_Name: Petralona-4_1
   m_TagString: Untagged
@@ -1337,6 +1403,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &874265137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874265132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1005858276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,6 +1490,7 @@ GameObject:
   - component: {fileID: 1056530306}
   - component: {fileID: 1056530309}
   - component: {fileID: 1056530307}
+  - component: {fileID: 1056530310}
   m_Layer: 0
   m_Name: Petralona-4_4
   m_TagString: Untagged
@@ -1513,6 +1592,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1056530310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056530305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1170056100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,6 +1615,7 @@ GameObject:
   - component: {fileID: 1170056101}
   - component: {fileID: 1170056102}
   - component: {fileID: 1170056104}
+  - component: {fileID: 1170056105}
   m_Layer: 0
   m_Name: Petralona-3_1
   m_TagString: Untagged
@@ -1625,6 +1717,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1170056105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170056100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1216445665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,6 +1740,7 @@ GameObject:
   - component: {fileID: 1216445666}
   - component: {fileID: 1216445669}
   - component: {fileID: 1216445667}
+  - component: {fileID: 1216445670}
   m_Layer: 0
   m_Name: Petralona-4_2
   m_TagString: Untagged
@@ -1737,6 +1842,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1216445670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216445665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1371041441
 GameObject:
   m_ObjectHideFlags: 0
@@ -1748,6 +1865,7 @@ GameObject:
   - component: {fileID: 1371041442}
   - component: {fileID: 1371041443}
   - component: {fileID: 1371041445}
+  - component: {fileID: 1371041446}
   m_Layer: 0
   m_Name: Petralona-3_2
   m_TagString: Untagged
@@ -1849,6 +1967,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1371041446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371041441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1397512937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1995,6 +2125,7 @@ GameObject:
   - component: {fileID: 1419311540}
   - component: {fileID: 1419311541}
   - component: {fileID: 1419311543}
+  - component: {fileID: 1419311544}
   m_Layer: 0
   m_Name: Petralona-1_4
   m_TagString: Untagged
@@ -2096,6 +2227,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1419311544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419311539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1459094685
 GameObject:
   m_ObjectHideFlags: 0
@@ -2107,6 +2250,7 @@ GameObject:
   - component: {fileID: 1459094686}
   - component: {fileID: 1459094687}
   - component: {fileID: 1459094689}
+  - component: {fileID: 1459094690}
   m_Layer: 0
   m_Name: Petralona-1_2
   m_TagString: Untagged
@@ -2208,6 +2352,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1459094690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1459094685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1627736925 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4584873092663044191, guid: a446e9f31382ec24fb9067fbc6ae61b8,
@@ -2392,6 +2548,7 @@ GameObject:
   - component: {fileID: 1833850829}
   - component: {fileID: 1833850830}
   - component: {fileID: 1833850832}
+  - component: {fileID: 1833850833}
   m_Layer: 0
   m_Name: Petralona-1_3
   m_TagString: Untagged
@@ -2492,6 +2649,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1833850833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833850828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1840601068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2615,6 +2784,7 @@ GameObject:
   - component: {fileID: 1932532895}
   - component: {fileID: 1932532896}
   - component: {fileID: 1932532898}
+  - component: {fileID: 1932532899}
   m_Layer: 0
   m_Name: Petralona-2_1
   m_TagString: Untagged
@@ -2716,6 +2886,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1932532899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932532894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1964315782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,6 +2909,7 @@ GameObject:
   - component: {fileID: 1964315783}
   - component: {fileID: 1964315784}
   - component: {fileID: 1964315786}
+  - component: {fileID: 1964315787}
   m_Layer: 0
   m_Name: Petralona-2_3
   m_TagString: Untagged
@@ -2827,6 +3010,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1964315787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964315782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1967359197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +3033,7 @@ GameObject:
   - component: {fileID: 1967359198}
   - component: {fileID: 1967359199}
   - component: {fileID: 1967359201}
+  - component: {fileID: 1967359202}
   m_Layer: 0
   m_Name: Petralona-3_3
   m_TagString: Untagged
@@ -2939,6 +3135,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1967359202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967359197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1983696794
 GameObject:
   m_ObjectHideFlags: 0
@@ -2950,6 +3158,7 @@ GameObject:
   - component: {fileID: 1983696795}
   - component: {fileID: 1983696798}
   - component: {fileID: 1983696796}
+  - component: {fileID: 1983696799}
   m_Layer: 0
   m_Name: Petralona-5-1
   m_TagString: Untagged
@@ -3050,6 +3259,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1983696799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983696794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2012891946 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4584873092784462516, guid: a446e9f31382ec24fb9067fbc6ae61b8,
@@ -3073,6 +3294,7 @@ GameObject:
   - component: {fileID: 2087803321}
   - component: {fileID: 2087803322}
   - component: {fileID: 2087803324}
+  - component: {fileID: 2087803325}
   m_Layer: 0
   m_Name: Petralona-2_4
   m_TagString: Untagged
@@ -3174,6 +3396,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &2087803325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087803320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2095222273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3307,6 +3541,7 @@ GameObject:
   - component: {fileID: 2117018567}
   - component: {fileID: 2117018570}
   - component: {fileID: 2117018568}
+  - component: {fileID: 2117018571}
   m_Layer: 0
   m_Name: Petralona-5-3
   m_TagString: Untagged
@@ -3408,3 +3643,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2117018571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117018566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
