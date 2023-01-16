@@ -41,6 +41,9 @@ public class ObjectSpawner : MonoBehaviour
             if (SpawnedItem[i].GetComponent<SceneButtonEnter>() != null)
             {
                 SpawnedItem[i].GetComponent<SceneButtonEnter>().JoystickSet = Joysticks;
+            } else
+            {
+                SpawnedItem[i].GetComponent<CloseUI>().JoystickSet = Joysticks;
             }
         }
     }
