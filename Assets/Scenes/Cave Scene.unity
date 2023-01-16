@@ -1059,7 +1059,7 @@ GameObject:
   - component: {fileID: 593099896}
   - component: {fileID: 593099897}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: AfterStairsHoleFix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1078,7 +1078,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1835356927}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -22.163, z: 0}
 --- !u!33 &593099896
 MeshFilter:
@@ -2992,7 +2992,7 @@ GameObject:
   - component: {fileID: 1700617978}
   - component: {fileID: 1700617977}
   m_Layer: 0
-  m_Name: Plane (1)
+  m_Name: Stairs Fix
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3011,7 +3011,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1835356927}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -18.693, z: 0}
 --- !u!65 &1700617977
 BoxCollider:
@@ -3078,8 +3078,8 @@ Transform:
   m_Children:
   - {fileID: 231742889}
   - {fileID: 2072617474}
-  - {fileID: 593099894}
   - {fileID: 1700617976}
+  - {fileID: 593099894}
   m_Father: {fileID: 1515891393}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
