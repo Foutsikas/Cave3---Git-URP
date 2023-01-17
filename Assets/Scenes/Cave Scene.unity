@@ -2432,7 +2432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxDistance: 2
   CollectButton: {fileID: 1548938332}
-  Joysticks: {fileID: 0}
+  Joysticks: {fileID: 1201961441}
 --- !u!1 &1247183273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3527,7 +3527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneToLoad: {fileID: 102900000, guid: 0a155cb6e8881b04e84a4b415af76751, type: 3}
-  Info_UI: {fileID: 0}
+  Info_UI: {fileID: 159664233}
 --- !u!1001 &1115822512569934354
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -5,18 +5,18 @@ using UnityEngine;
 public class CloseUI : MonoBehaviour
 {
     public GameObject UI;
-    private GameObject Joysticks;
+    // private GameObject Joysticks;
     public void CloseUIButton()
     {
         UI.SetActive(false);
-        Joysticks.SetActive(true);
+        // Joysticks.SetActive(true);
     }
 
-    public GameObject JoystickSet
-    {
-        set
-        {
-            Joysticks = value;
-        }
-    }
+    // public GameObject JoystickSet
+    // {
+    //     set
+    //     {
+    //         Joysticks = value;
+    //     }
+    // }
 }
