@@ -135,7 +135,8 @@ GameObject:
   - component: {fileID: 159812281}
   - component: {fileID: 159812284}
   - component: {fileID: 159812282}
-  m_Layer: 0
+  - component: {fileID: 159812285}
+  m_Layer: 8
   m_Name: Petralona-5_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -236,6 +237,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &159812285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159812280}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &445992603
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +260,8 @@ GameObject:
   - component: {fileID: 445992604}
   - component: {fileID: 445992605}
   - component: {fileID: 445992607}
-  m_Layer: 0
+  - component: {fileID: 445992608}
+  m_Layer: 8
   m_Name: Petralona-2_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,6 +362,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &445992608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445992603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &474527706
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,9 +384,9 @@ GameObject:
   m_Component:
   - component: {fileID: 474527707}
   - component: {fileID: 474527708}
-  - component: {fileID: 474527712}
-  - component: {fileID: 474527713}
-  m_Layer: 0
+  - component: {fileID: 474527714}
+  - component: {fileID: 474527715}
+  m_Layer: 8
   m_Name: Petralona-1_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -434,7 +460,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &474527712
+--- !u!61 &474527714
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -460,7 +486,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 1.2}
   m_EdgeRadius: 0
---- !u!114 &474527713
+--- !u!114 &474527715
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -469,59 +495,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 474527706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pressed:
-    m_Name: Pressed
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 1f8386ea-0a73-48de-8fae-b1f0f29ba7d8
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: f081b9fc-325b-4d23-a9ee-ee5c678d2fab
-      m_Path: <Mouse>/leftButton
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Pressed
-      m_Flags: 0
-    - m_Name: 
-      m_Id: efc55b8f-2122-4a41-b204-d258bce5c786
-      m_Path: <Touchscreen>/Press
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Pressed
-      m_Flags: 0
-    m_Flags: 0
-  axis:
-    m_Name: Axis
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 67991ab5-4460-4695-b5ee-34c11010b807
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 53f9e0af-44f4-4fc5-95df-a292aed7bb44
-      m_Path: <Mouse>/delta
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Axis
-      m_Flags: 0
-    - m_Name: 
-      m_Id: 9459befe-30e9-46d3-9f1c-dec2aec20a8a
-      m_Path: <Touchscreen>/delta
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Axis
-      m_Flags: 0
-    m_Flags: 0
 --- !u!1 &590718513
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +748,8 @@ GameObject:
   - component: {fileID: 651254781}
   - component: {fileID: 651254782}
   - component: {fileID: 651254784}
-  m_Layer: 0
+  - component: {fileID: 651254785}
+  m_Layer: 8
   m_Name: Petralona-3_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -873,6 +850,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &651254785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651254780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &731845356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1019,7 +1008,8 @@ GameObject:
   - component: {fileID: 748701419}
   - component: {fileID: 748701422}
   - component: {fileID: 748701420}
-  m_Layer: 0
+  - component: {fileID: 748701423}
+  m_Layer: 8
   m_Name: Petralona-4_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1120,6 +1110,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &748701423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748701418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &807055182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,7 +1220,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &865786245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1300,7 +1302,8 @@ GameObject:
   - component: {fileID: 874265133}
   - component: {fileID: 874265136}
   - component: {fileID: 874265134}
-  m_Layer: 0
+  - component: {fileID: 874265137}
+  m_Layer: 8
   m_Name: Petralona-4_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1400,6 +1403,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &874265137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874265132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1005858276
 GameObject:
   m_ObjectHideFlags: 0
@@ -1475,7 +1490,8 @@ GameObject:
   - component: {fileID: 1056530306}
   - component: {fileID: 1056530309}
   - component: {fileID: 1056530307}
-  m_Layer: 0
+  - component: {fileID: 1056530310}
+  m_Layer: 8
   m_Name: Petralona-4_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1576,6 +1592,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1056530310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1056530305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1170056100
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,7 +1615,8 @@ GameObject:
   - component: {fileID: 1170056101}
   - component: {fileID: 1170056102}
   - component: {fileID: 1170056104}
-  m_Layer: 0
+  - component: {fileID: 1170056105}
+  m_Layer: 8
   m_Name: Petralona-3_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1688,6 +1717,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1170056105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170056100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1216445665
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,7 +1740,8 @@ GameObject:
   - component: {fileID: 1216445666}
   - component: {fileID: 1216445669}
   - component: {fileID: 1216445667}
-  m_Layer: 0
+  - component: {fileID: 1216445670}
+  m_Layer: 8
   m_Name: Petralona-4_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1800,6 +1842,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1216445670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216445665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1371041441
 GameObject:
   m_ObjectHideFlags: 0
@@ -1811,7 +1865,8 @@ GameObject:
   - component: {fileID: 1371041442}
   - component: {fileID: 1371041443}
   - component: {fileID: 1371041445}
-  m_Layer: 0
+  - component: {fileID: 1371041446}
+  m_Layer: 8
   m_Name: Petralona-3_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1912,6 +1967,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1371041446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1371041441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1397512937
 GameObject:
   m_ObjectHideFlags: 0
@@ -2058,7 +2125,8 @@ GameObject:
   - component: {fileID: 1419311540}
   - component: {fileID: 1419311541}
   - component: {fileID: 1419311543}
-  m_Layer: 0
+  - component: {fileID: 1419311544}
+  m_Layer: 8
   m_Name: Petralona-1_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2159,6 +2227,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1419311544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1419311539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1459094685
 GameObject:
   m_ObjectHideFlags: 0
@@ -2171,7 +2251,7 @@ GameObject:
   - component: {fileID: 1459094687}
   - component: {fileID: 1459094689}
   - component: {fileID: 1459094690}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Petralona-1_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2281,59 +2361,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1459094685}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pressed:
-    m_Name: Pressed
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 1f8386ea-0a73-48de-8fae-b1f0f29ba7d8
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: f081b9fc-325b-4d23-a9ee-ee5c678d2fab
-      m_Path: <Mouse>/leftButton
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Pressed
-      m_Flags: 0
-    - m_Name: 
-      m_Id: efc55b8f-2122-4a41-b204-d258bce5c786
-      m_Path: <Touchscreen>/Press
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Pressed
-      m_Flags: 0
-    m_Flags: 0
-  axis:
-    m_Name: Axis
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 67991ab5-4460-4695-b5ee-34c11010b807
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: 
-      m_Id: 53f9e0af-44f4-4fc5-95df-a292aed7bb44
-      m_Path: <Mouse>/delta
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Axis
-      m_Flags: 0
-    - m_Name: 
-      m_Id: 9459befe-30e9-46d3-9f1c-dec2aec20a8a
-      m_Path: <Touchscreen>/delta
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Axis
-      m_Flags: 0
-    m_Flags: 0
 --- !u!114 &1627736925 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4584873092663044191, guid: a446e9f31382ec24fb9067fbc6ae61b8,
@@ -2518,7 +2548,8 @@ GameObject:
   - component: {fileID: 1833850829}
   - component: {fileID: 1833850830}
   - component: {fileID: 1833850832}
-  m_Layer: 0
+  - component: {fileID: 1833850833}
+  m_Layer: 8
   m_Name: Petralona-1_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2618,6 +2649,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1833850833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1833850828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1840601068
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,6 +2674,7 @@ GameObject:
   - component: {fileID: 1840601071}
   - component: {fileID: 1840601070}
   - component: {fileID: 1840601073}
+  - component: {fileID: 1840601074}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2730,6 +2774,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840601068}
   m_CullTransparentMesh: 1
+--- !u!114 &1840601074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840601068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f81ae196d3db97747b3fb3b5c01b1685, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1932532894
 GameObject:
   m_ObjectHideFlags: 0
@@ -2741,7 +2815,8 @@ GameObject:
   - component: {fileID: 1932532895}
   - component: {fileID: 1932532896}
   - component: {fileID: 1932532898}
-  m_Layer: 0
+  - component: {fileID: 1932532899}
+  m_Layer: 8
   m_Name: Petralona-2_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2842,6 +2917,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1932532899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932532894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1964315782
 GameObject:
   m_ObjectHideFlags: 0
@@ -2853,7 +2940,8 @@ GameObject:
   - component: {fileID: 1964315783}
   - component: {fileID: 1964315784}
   - component: {fileID: 1964315786}
-  m_Layer: 0
+  - component: {fileID: 1964315787}
+  m_Layer: 8
   m_Name: Petralona-2_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2953,6 +3041,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1964315787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964315782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1967359197
 GameObject:
   m_ObjectHideFlags: 0
@@ -2964,7 +3064,8 @@ GameObject:
   - component: {fileID: 1967359198}
   - component: {fileID: 1967359199}
   - component: {fileID: 1967359201}
-  m_Layer: 0
+  - component: {fileID: 1967359202}
+  m_Layer: 8
   m_Name: Petralona-3_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3065,6 +3166,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &1967359202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967359197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1983696794
 GameObject:
   m_ObjectHideFlags: 0
@@ -3076,7 +3189,8 @@ GameObject:
   - component: {fileID: 1983696795}
   - component: {fileID: 1983696798}
   - component: {fileID: 1983696796}
-  m_Layer: 0
+  - component: {fileID: 1983696799}
+  m_Layer: 8
   m_Name: Petralona-5-1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3176,6 +3290,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1983696799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1983696794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2012891946 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4584873092784462516, guid: a446e9f31382ec24fb9067fbc6ae61b8,
@@ -3199,7 +3325,8 @@ GameObject:
   - component: {fileID: 2087803321}
   - component: {fileID: 2087803322}
   - component: {fileID: 2087803324}
-  m_Layer: 0
+  - component: {fileID: 2087803325}
+  m_Layer: 8
   m_Name: Petralona-2_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3300,6 +3427,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.9499884, y: 0.9692832}
   m_EdgeRadius: 0
+--- !u!114 &2087803325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087803320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2095222273
 GameObject:
   m_ObjectHideFlags: 0
@@ -3311,9 +3450,10 @@ GameObject:
   - component: {fileID: 2095222276}
   - component: {fileID: 2095222275}
   - component: {fileID: 2095222277}
+  - component: {fileID: 2095222278}
   m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
+  m_Name: GameCamera
+  m_TagString: GameCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -3409,6 +3549,93 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &2095222278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095222273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e151f6091866fd41b0d733a60216ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pressed:
+    m_Name: Pressed
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 451c7613-0c04-4eee-80c0-9855daa4bc1a
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 181c0749-b36c-4206-a867-aeb471d3a9bd
+      m_Path: <Mouse>/leftButton
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Pressed
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 6784c6cc-486f-4812-a767-f53b3f8ed9f9
+      m_Path: <Touchscreen>/Press
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Pressed
+      m_Flags: 0
+    m_Flags: 0
+  axis:
+    m_Name: Axis
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: ba17b2cd-681b-4fff-a05f-084dae303c1b
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: d1d6de65-1aea-4cca-b744-1f92a7688e9d
+      m_Path: <Mouse>/delta
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Axis
+      m_Flags: 0
+    - m_Name: 
+      m_Id: c3613fe4-397e-44a3-b769-c14e7a584c24
+      m_Path: <Touchscreen>/delta
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Axis
+      m_Flags: 0
+    m_Flags: 0
+  screenPos:
+    m_Name: Screen Pos
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 4b738dab-e16d-44cd-bc1e-3e67483c24e2
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: f71fa4fd-287f-4be3-a2e8-ce73209ae0b8
+      m_Path: <Mouse>/position
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Screen Pos
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 7cfa95dc-784a-4b45-b92d-2bbe309a6970
+      m_Path: <Touchscreen>/position
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Screen Pos
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &2117018566
 GameObject:
   m_ObjectHideFlags: 0
@@ -3420,7 +3647,8 @@ GameObject:
   - component: {fileID: 2117018567}
   - component: {fileID: 2117018570}
   - component: {fileID: 2117018568}
-  m_Layer: 0
+  - component: {fileID: 2117018571}
+  m_Layer: 8
   m_Name: Petralona-5-3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3521,3 +3749,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2117018571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2117018566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e396560efb6500409b89b4416338fcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
