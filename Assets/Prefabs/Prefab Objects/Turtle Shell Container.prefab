@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &4034273129266839095
+--- !u!1 &5913393932401674485
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,49 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5281228638661143820}
-  - component: {fileID: 7033952102190044230}
-  - component: {fileID: 5816438546072170706}
-  - component: {fileID: 5093637393818598321}
-  - component: {fileID: 2609934130144718069}
+  - component: {fileID: 6438820218888311375}
+  - component: {fileID: 7995177187370065386}
+  - component: {fileID: 5264817929575147808}
+  - component: {fileID: 6832507790230926777}
+  - component: {fileID: 7995177187370065389}
   m_Layer: 9
-  m_Name: default
+  m_Name: Turtle_Shell_46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5281228638661143820
+--- !u!4 &6438820218888311375
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4034273129266839095}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_GameObject: {fileID: 5913393932401674485}
+  m_LocalRotation: {x: 0.00000008146034, y: -0.000000021855698, z: -0.000000029802317,
+    w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 4700215694921915476}
+  m_Father: {fileID: 6832507790848754616}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7033952102190044230
+--- !u!33 &7995177187370065386
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4034273129266839095}
-  m_Mesh: {fileID: -2432090755550338912, guid: c19a4fe736261154397a27c9dbcd37ec, type: 3}
---- !u!23 &5816438546072170706
+  m_GameObject: {fileID: 5913393932401674485}
+  m_Mesh: {fileID: -1433850545146635135, guid: ae0c4b88f23c6bf4fbcd25abd182e914, type: 3}
+--- !u!23 &5264817929575147808
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4034273129266839095}
+  m_GameObject: {fileID: 5913393932401674485}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -63,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 42e738705c621b44692f7d5c5a5a47a6, type: 2}
+  - {fileID: 2100000, guid: 7fbc564ce6231894b97a5f886885a533, type: 2}
   - {fileID: 2100000, guid: 92454ba26074ef84eb7eec39dd7a712e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -86,33 +87,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5093637393818598321
+--- !u!65 &6832507790230926777
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4034273129266839095}
+  m_GameObject: {fileID: 5913393932401674485}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 213.25508, y: 166.8419, z: 359.18146}
-  m_Center: {x: 45.068626, y: 42.246887, z: 9.429672}
---- !u!114 &2609934130144718069
+  m_Size: {x: 2.3935022, y: 1.3289093, z: 2.1717234}
+  m_Center: {x: -0.846086, y: 0.6940382, z: -0.2214207}
+--- !u!114 &7995177187370065389
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4034273129266839095}
+  m_GameObject: {fileID: 5913393932401674485}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0b82ad4755aa4454ea5fefd7649aa68c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 7129236702451710045}
---- !u!1 &5364163090746771182
+  UI: {fileID: 8399278156004933739}
+--- !u!1 &6832507790848754617
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -120,84 +121,59 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4700215694921915476}
-  - component: {fileID: 8107663683762510782}
+  - component: {fileID: 6832507790848754616}
+  - component: {fileID: 6832507790848754619}
   m_Layer: 0
-  m_Name: Lion_Bone (110)
+  m_Name: Turtle Shell Container
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4700215694921915476
+--- !u!4 &6832507790848754616
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5364163090746771182}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.392559, y: 3.533, z: -4.972656}
-  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
-  m_ConstrainProportionsScale: 1
+  m_GameObject: {fileID: 6832507790848754617}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 5281228638661143820}
-  - {fileID: 7129236702451710046}
+  - {fileID: 6438820218888311375}
+  - {fileID: 8399278156004933736}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8107663683762510782
+--- !u!114 &6832507790848754619
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5364163090746771182}
+  m_GameObject: {fileID: 6832507790848754617}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49059120d0015ab46bec10417ff25efc, type: 3}
+  m_Script: {fileID: 11500000, guid: babba4f42f2140049b6148e0c00e83f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UI: {fileID: 7129236702451710045}
---- !u!1001 &5238223322492674891
+  SceneToLoad: {fileID: 102900000, guid: 747fd6dc278cd4c4c91549808f57d514, type: 3}
+  Info_UI: {fileID: 8399278156004933739}
+--- !u!1001 &6832507790943542141
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 4700215694921915476}
+    m_TransformParent: {fileID: 6832507790848754616}
     m_Modifications:
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_text
-      value: "\u0392\u03C1\u03B1\u03C7\u03B9\u03CC\u03BD\u03B9\u03BF \u039F\u03C3\u03C4\u03CC
-        \u039B\u03B9\u03BF\u03BD\u03C4\u03B1\u03C1\u03AF\u03BF\u03C5 \u03C4\u03BF\u03BD
-        \u03A3\u03C0\u03B7\u03BB\u03B1\u03B9\u03C9\u03BD\n\n\u0395\u0399\u0394\u039F\u03A3:
-        Panthera spelaea\n\n\u0397\u039B\u0399\u039A\u0399\u0391: 150 - 50 \u03A7\u03B9\u03BB\u03B9\u03AC\u03B4\u03C9\u03BD
-        \u0395\u03C4\u03CE\u03BD"
+      value: "\u039A\u03AD\u03BB\u03C5\u03C6\u03BF\u03C2 \u03A7\u03B5\u03BB\u03CE\u03BD\u03B1\u03C2\n\n\u0397\u039B\u0399\u039A\u0399\u0391:
+        150 - 50 \u03A7\u03B9\u03BB\u03B9\u03AC\u03B4\u03C9\u03BD \u0395\u03C4\u03CE\u03BD"
       objectReference: {fileID: 0}
-    - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 145.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 1de9f859a843df343aa3dc67f9fd73a8,
-        type: 2}
-    - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
-        type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -1880712287590605661, guid: 1de9f859a843df343aa3dc67f9fd73a8,
-        type: 2}
-    - target: {fileID: 3044938409065956907, guid: 43fd06c7ee789b540b7a50622335dd0b,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: f81ae196d3db97747b3fb3b5c01b1685,
-        type: 3}
     - target: {fileID: 3044938410320468757, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_Pivot.x
@@ -313,48 +289,32 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5455698919838554262, guid: 43fd06c7ee789b540b7a50622335dd0b,
-        type: 3}
-      propertyPath: m_text
-      value: "\u0395\u039E\u039F\u0394\u039F\u03A3"
-      objectReference: {fileID: 0}
-    - target: {fileID: 5455698919838554262, guid: 43fd06c7ee789b540b7a50622335dd0b,
-        type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 1de9f859a843df343aa3dc67f9fd73a8,
-        type: 2}
-    - target: {fileID: 5455698919838554262, guid: 43fd06c7ee789b540b7a50622335dd0b,
-        type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8457475492497853807, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 8107663683762510782}
+      objectReference: {fileID: 6832507790848754619}
     - target: {fileID: 8457475492497853807, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CloseUIButton
+      value: EnterSceneButton
       objectReference: {fileID: 0}
     - target: {fileID: 8457475492497853807, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: CloseUI, Assembly-CSharp
+      value: SceneButtonEnter, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43fd06c7ee789b540b7a50622335dd0b, type: 3}
---- !u!1 &7129236702451710045 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3044938410320468758, guid: 43fd06c7ee789b540b7a50622335dd0b,
-    type: 3}
-  m_PrefabInstance: {fileID: 5238223322492674891}
-  m_PrefabAsset: {fileID: 0}
---- !u!224 &7129236702451710046 stripped
+--- !u!224 &8399278156004933736 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3044938410320468757, guid: 43fd06c7ee789b540b7a50622335dd0b,
     type: 3}
-  m_PrefabInstance: {fileID: 5238223322492674891}
+  m_PrefabInstance: {fileID: 6832507790943542141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8399278156004933739 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3044938410320468758, guid: 43fd06c7ee789b540b7a50622335dd0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6832507790943542141}
   m_PrefabAsset: {fileID: 0}
