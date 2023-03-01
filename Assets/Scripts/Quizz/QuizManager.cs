@@ -2,14 +2,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
 {
     public List<QuestionsAndAnswers> QnA;
-    public GameObject[] options;
+    public GameObject answerButtonPrefab; // reference to the button prefab to generate answer buttons
+    public Transform answerButtonParent; // reference to the parent transform to attach answer buttons to
     public int currentQuestion;
 
-    public GameObject QuizPanel;
     public GameObject GameOverPanel;
 
     public TMP_Text QuestionTxt;
@@ -17,6 +18,8 @@ public class QuizManager : MonoBehaviour
 
     int TotalQuestions = 0;
     public int Score;
+    public GameObject QuestionPanel;
+    public GameObject AnswerPanel;
 
     private void Start()
     {
@@ -27,7 +30,8 @@ public class QuizManager : MonoBehaviour
 
     void GameOver()
     {
-        QuizPanel.SetActive(false);
+        QuestionPanel.SetActive(false);
+        AnswerPanel.SetActive(false);
         GameOverPanel.SetActive(true);
         ScoreTxt.text = Score + "/" + TotalQuestions;
     }
@@ -47,14 +51,25 @@ public class QuizManager : MonoBehaviour
 
     void SetAnswers()
     {
-        for (int i = 0; i < options.Length; i++)
+        // Destroy any existing answer buttons
+        foreach (Transform child in answerButtonParent)
         {
-            options[i].GetComponent<AnswerScript>().isCorrect = false;
-            options[i].transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answers[i];
+            Destroy(child.gameObject);
+        }
 
-            if (QnA[currentQuestion].CorrectAnswer == i+1)
+        // Instantiate answer buttons
+        for (int i = 0; i < QnA[currentQuestion].Answers.Length; i++)
+        {
+            GameObject answerButton = Instantiate(answerButtonPrefab, answerButtonParent);
+            // GameObject QuizManager = prefabScript.Answers;
+            answerButton.transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answers[i];
+            if (i == QnA[currentQuestion].CorrectAnswer)
             {
-                options[i].GetComponent<AnswerScript>().isCorrect = true;
+                answerButton.GetComponent<Button>().onClick.AddListener(correct);
+            }
+            else
+            {
+                answerButton.GetComponent<Button>().onClick.AddListener(wrong);
             }
         }
     }

@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CinemachineTarget
   - GameCamera
+  - PieceButton
+  - Answer
   layers:
   - Default
   - TransparentFX
