@@ -21,5 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Cave3Quiz.unity
     guid: 0a155cb6e8881b04e84a4b415af76751
   m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 070445e1e6001a74a9b725083c659c12,
+      type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7,
+      type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: c26940588cd8e9c4695290b180d76e6a,
       type: 2}
