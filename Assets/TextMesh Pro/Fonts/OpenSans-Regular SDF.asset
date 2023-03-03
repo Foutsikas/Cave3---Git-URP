@@ -2,14 +2,15 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &-1880712287590605661
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: OpenSans-Regular Atlas Material
   m_Shader: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
-  m_ShaderKeywords: 
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -120,8 +121,9 @@ MonoBehaviour:
   material: {fileID: -1880712287590605661}
   materialHashCode: -657854723
   m_Version: 1.1.0
-  m_SourceFontFileGUID: 04e1806587ed2d04eb5ad21a33a17bf5
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 04e1806587ed2d04eb5ad21a33a17bf5, type: 3}
+  m_SourceFontFileGUID: 5f959087cc926db4c82944dbdd75fa8c
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: 5f959087cc926db4c82944dbdd75fa8c,
+    type: 3}
   m_SourceFontFile: {fileID: 12800000, guid: 04e1806587ed2d04eb5ad21a33a17bf5, type: 3}
   m_AtlasPopulationMode: 1
   m_FaceInfo:
@@ -312,6 +314,20 @@ MonoBehaviour:
       m_Y: 766
       m_Width: 43
       m_Height: 67
+    m_Scale: 1
+    m_AtlasIndex: 0
+  - m_Index: 23
+    m_Metrics:
+      m_Width: 47.8125
+      m_Height: 64.59375
+      m_HorizontalBearingX: 1.9375
+      m_HorizontalBearingY: 64.59375
+      m_HorizontalAdvance: 51.453125
+    m_GlyphRect:
+      m_X: 580
+      m_Y: 674
+      m_Width: 49
+      m_Height: 65
     m_Scale: 1
     m_AtlasIndex: 0
   - m_Index: 24
@@ -1686,20 +1702,6 @@ MonoBehaviour:
       m_Height: 13
     m_Scale: 1
     m_AtlasIndex: 0
-  - m_Index: 23
-    m_Metrics:
-      m_Width: 47.8125
-      m_Height: 64.59375
-      m_HorizontalBearingX: 1.9375
-      m_HorizontalBearingY: 64.59375
-      m_HorizontalAdvance: 51.453125
-    m_GlyphRect:
-      m_X: 580
-      m_Y: 674
-      m_Width: 49
-      m_Height: 65
-    m_Scale: 1
-    m_AtlasIndex: 0
   m_CharacterTable:
   - m_ElementType: 1
     m_Unicode: 13
@@ -1748,6 +1750,10 @@ MonoBehaviour:
   - m_ElementType: 1
     m_Unicode: 51
     m_GlyphIndex: 22
+    m_Scale: 1
+  - m_ElementType: 1
+    m_Unicode: 52
+    m_GlyphIndex: 23
     m_Scale: 1
   - m_ElementType: 1
     m_Unicode: 53
@@ -2140,10 +2146,6 @@ MonoBehaviour:
   - m_ElementType: 1
     m_Unicode: 8230
     m_GlyphIndex: 527
-    m_Scale: 1
-  - m_ElementType: 1
-    m_Unicode: 52
-    m_GlyphIndex: 23
     m_Scale: 1
   m_AtlasTextures:
   - {fileID: 6712894978352166301}
