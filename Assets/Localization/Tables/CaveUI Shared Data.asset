@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: CaveUI Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: CaveUI
+  m_TableCollectionNameGuidString: 96863891ab4627246aaf27ea179eba17
+  m_Entries:
+  - m_Id: 56755355648
+    m_Key: PlayButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128528285696
+    m_Key: ExitButton
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179698794496
+    m_Key: ItemsCollected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 470754131968
+    m_Key: PickUpUI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 646940065792
+    m_Key: HumanSkullInfo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1479966588928
+    m_Key: CollectedItemScore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1908620263424
+    m_Key: BearHeadUI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2152699396096
+    m_Key: ElephantRibUI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2230579232768
+    m_Key: HorseSkullUI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2548306149376
+    m_Key: LionBoneUI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2955354963968
+    m_Key: TurtleUI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011753012035584
+    m_Key: YouWin
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 4659512654416838674
+  references:
+    version: 2
+    RefIds:
+    - rid: 4659512654416838674
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1677853022810

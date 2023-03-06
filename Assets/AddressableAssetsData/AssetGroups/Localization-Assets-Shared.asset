@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: a0ccf3ea96ff3c5489477e26c8437cae
+  m_SerializeEntries:
+  - m_GUID: 43eaa77f54642d942bb2e8c437a88329
+    m_Address: Assets/Localization/Tables/Menu Text Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 96863891ab4627246aaf27ea179eba17
+    m_Address: Assets/Localization/Tables/CaveUI Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 252519ea785012d4486994cbf42532a0
+    m_Address: Assets/Localization/Tables/MatchingGameTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: a5620cff3350f2142abce057b59e9b8b
+    m_Address: Assets/Localization/Tables/QuizTable Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 27634d5098787cf4396e2d7603305add, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d30fd2cd8987f5d4ab1692fa5ef93620, type: 2}
+    - {fileID: 11400000, guid: cd41cba5aefb1034593d8ea564d22cd6, type: 2}

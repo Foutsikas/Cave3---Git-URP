@@ -134,7 +134,7 @@ public class GameController : MonoBehaviour
             Debug.Log("Game Finished");
             GameWin_Popup.SetActive(true);
             Debug.Log("It took you " + countGuesses + " guesses to finish the game");
-            GameOverText.text = "Σου πήρε " + countGuesses + " προσπάθειες για να κερδίσεις!";
+            GameOverText.text = "" + countGuesses + "";
         }
     }
 

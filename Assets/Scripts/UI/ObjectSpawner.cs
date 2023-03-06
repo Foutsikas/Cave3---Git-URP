@@ -60,7 +60,7 @@ public class ObjectSpawner : MonoBehaviour
 
     void WasCollected()
     {
-        _CollectedItems.text = "ΑΝΤΙΚΕΙΜΕΝΑ: " + itemCounter + "/6";
+        _CollectedItems.text = "" + itemCounter + "/6";
         if (itemCounter == 6)
         {
             StartCoroutine(EnableEndGameUI());

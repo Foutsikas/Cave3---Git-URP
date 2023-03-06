@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: CaveUI_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 96863891ab4627246aaf27ea179eba17, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 56755355648
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128528285696
+    m_Localized: EXIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179698794496
+    m_Localized: 'Congratulations,
+
+      you have collected all the items!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 470754131968
+    m_Localized: COLLECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 646940065792
+    m_Localized: 'Prehistoric Human Skull
+
+
+      SPECIES: Homo heidelbergensis
+
+
+      AGE:
+      300 - 150 Thousand years old'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1479966588928
+    m_Localized: 'OBJECTS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2230579232768
+    m_Localized: 'PART OF HORSE SKULL
+
+
+      AGE: 150 - 50 Thousand years old'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2548306149376
+    m_Localized: 'Humerus of Cave Lion
+
+
+      SPECIES: Panthera spelaea
+
+
+      AGE:
+      150 - 50 Thousand years old'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2955354963968
+    m_Localized: 'Turtle Shell
+
+
+      AGE: 150 - 50 Thousand years old'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1011753012035584
+    m_Localized: YOU WON
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
