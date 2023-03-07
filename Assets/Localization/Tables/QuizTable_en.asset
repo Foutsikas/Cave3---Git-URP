@@ -16,14 +16,12 @@ MonoBehaviour:
     m_Code: en
   m_SharedData: {fileID: 11400000, guid: a5620cff3350f2142abce057b59e9b8b, type: 2}
   m_Metadata:
-    m_Items:
-    - rid: 4659512719383461906
+    m_Items: []
   m_TableData:
   - m_Id: 49880891392
     m_Localized: What are some features of a cave?
     m_Metadata:
-      m_Items:
-      - rid: 4659512719383461906
+      m_Items: []
   - m_Id: 149944401920
     m_Localized: Stalactites
     m_Metadata:
@@ -41,13 +39,134 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 54439266353152
-    m_Localized: sadsadsa
+    m_Localized: "What does a paleontologist study?\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399804192653312
+    m_Localized: Rocks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399861734309888
+    m_Localized: Fossils
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399926699884544
+    m_Localized: Minerals
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399972401020928
+    m_Localized: Living animals and plants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 407640482119680
+    m_Localized: What is a stalactite?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 407701656043520
+    m_Localized: A formation hanging down from the roof of a cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 407794266275840
+    m_Localized: A formation that grows vertically from the floor of a cave
+    m_Metadata:
+      m_Items: []
+  - m_Id: 408216334893056
+    m_Localized: What is a stalagmite?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 408853177040896
+    m_Localized: Which geologic era do we currently live in?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 408885590622208
+    m_Localized: Paleozoic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 408896126713856
+    m_Localized: Cenozoic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 408936828239872
+    m_Localized: Mesozoic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409272607440896
+    m_Localized: Which of the following disciplines studies the artefacts of past
+      people?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409345152122880
+    m_Localized: History
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409422566391808
+    m_Localized: Archeology
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409480309374976
+    m_Localized: Geography
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409526882926592
+    m_Localized: Geology
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409582885273600
+    m_Localized: When did the Petralona man live?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409616309682176
+    m_Localized: In the Palaeolithic Period
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409671703855104
+    m_Localized: In the Roman Period
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409720491999232
+    m_Localized: '500 years ago '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409781795946496
+    m_Localized: "Palaeolithic people were _\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409889803468800
+    m_Localized: ' Farmers'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409899668471808
+    m_Localized: Stock-raisers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409855817023488
+    m_Localized: Hunter-Gatherers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410078719115264
+    m_Localized: Palaeolithic people made tools on _
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410568278278144
+    m_Localized: Stone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410570056663040
+    m_Localized: Wood
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410571868602368
+    m_Localized: Bone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410573475020800
+    m_Localized: Antler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410575089827840
+    m_Localized: All of the above
     m_Metadata:
       m_Items: []
   references:
     version: 2
-    RefIds:
-    - rid: 4659512719383461906
-      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
-      data:
-        m_Entries: 0000229d0b000000
+    RefIds: []

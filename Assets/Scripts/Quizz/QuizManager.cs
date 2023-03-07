@@ -1,8 +1,9 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.Localization;
+using UnityEngine.Localization.Components;
 
 public class QuizManager : MonoBehaviour
 {
@@ -13,13 +14,14 @@ public class QuizManager : MonoBehaviour
 
     public GameObject GameOverPanel;
 
-    public TMP_Text QuestionTxt;
     public TMP_Text ScoreTxt;
 
     int TotalQuestions = 0;
     public int Score;
     public GameObject QuestionPanel;
     public GameObject AnswerPanel;
+
+    public TMP_Text QuestionTxt;
 
     private void Start()
     {
@@ -58,11 +60,10 @@ public class QuizManager : MonoBehaviour
         }
 
         // Instantiate answer buttons
-        for (int i = 0; i < QnA[currentQuestion].Answers.Length; i++)
+        for (int i = 0; i < QnA[currentQuestion].AnswerKeys.Length; i++)
         {
             GameObject answerButton = Instantiate(answerButtonPrefab, answerButtonParent);
-            // GameObject QuizManager = prefabScript.Answers;
-            answerButton.transform.GetChild(0).GetComponent<TMP_Text>().text = QnA[currentQuestion].Answers[i];
+            answerButton.transform.GetChild(0).GetComponent<LocalizeStringEvent>().StringReference.SetReference("QuizTable", QnA[currentQuestion].AnswerKeys[i]); // set the reference using the answer key
             if (i == QnA[currentQuestion].CorrectAnswer)
             {
                 answerButton.GetComponent<Button>().onClick.AddListener(correct);
@@ -78,9 +79,11 @@ public class QuizManager : MonoBehaviour
     {
         if (QnA.Count > 0)
         {
-            currentQuestion = Random.Range (0, QnA.Count);
+            currentQuestion = Random.Range(0, QnA.Count);
 
-            QuestionTxt.text = QnA[currentQuestion].Question;
+            // set the reference using the question key
+            QuestionTxt.GetComponent<LocalizeStringEvent>().StringReference.SetReference("QuizTable", QnA[currentQuestion].QuestionKey);
+
             SetAnswers();
         }
         else
