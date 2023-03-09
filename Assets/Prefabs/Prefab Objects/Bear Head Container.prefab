@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: babba4f42f2140049b6148e0c00e83f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: {fileID: 102900000, guid: 4ad019040237d384c83c120b03c20cdd, type: 3}
+  SceneToLoad: 3
   Info_UI: {fileID: 5736948369857863154}
 --- !u!1 &7574243880656606221
 GameObject:

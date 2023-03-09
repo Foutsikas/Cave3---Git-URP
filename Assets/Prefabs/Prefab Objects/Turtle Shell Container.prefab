@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: babba4f42f2140049b6148e0c00e83f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneToLoad: {fileID: 102900000, guid: 747fd6dc278cd4c4c91549808f57d514, type: 3}
+  SceneToLoad: 2
   Info_UI: {fileID: 8399278156004933739}
 --- !u!1001 &6832507790943542141
 PrefabInstance:
@@ -200,8 +200,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 1430d3df71ed542428dcf631745974b5,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 3044938409272094387, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_Color.a

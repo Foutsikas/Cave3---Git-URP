@@ -4,14 +4,13 @@ using UnityEngine.UI;
 
 public class SceneButtonEnter : MonoBehaviour
 {
-    [SerializeField]
-    Object SceneToLoad;
+    [SerializeField] public int SceneToLoad;
     [SerializeField] GameObject Info_UI;
     // private GameObject Joysticks;
 
     public void EnterSceneButton()
     {
-        SceneManager.LoadSceneAsync(SceneToLoad.name, LoadSceneMode.Additive);//LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync(SceneToLoad, LoadSceneMode.Additive);//LoadSceneMode.Additive);
         Info_UI.SetActive(false);
         // Joysticks.SetActive(false);
     }

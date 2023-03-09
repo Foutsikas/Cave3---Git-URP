@@ -859,8 +859,8 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 894906002}
         m_TargetAssemblyTypeName: ExitMiniGame, Assembly-CSharp
-        m_MethodName: UnloadLevel
-        m_Mode: 5
+        m_MethodName: ExitSceneButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -977,9 +977,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed590df20c8f75498de76a694401df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 1781603393}
-  slider: {fileID: 1781603392}
-  progressText: {fileID: 1781603391}
+  SceneToUnload: 4
 --- !u!114 &894906003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1393,36 +1391,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a446e9f31382ec24fb9067fbc6ae61b8, type: 3}
---- !u!114 &1781603391 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7869998577639459553, guid: a446e9f31382ec24fb9067fbc6ae61b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1781603390}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1781603392 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4584873092663044191, guid: a446e9f31382ec24fb9067fbc6ae61b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1781603390}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1781603393 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7869998577051325249, guid: a446e9f31382ec24fb9067fbc6ae61b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1781603390}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1843073202
 GameObject:
   m_ObjectHideFlags: 0

@@ -445,9 +445,9 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1399791212}
-        m_TargetAssemblyTypeName: ExitMatchingGame, Assembly-CSharp
-        m_MethodName: UnloadLevel
-        m_Mode: 5
+        m_TargetAssemblyTypeName: ExitMiniGame, Assembly-CSharp
+        m_MethodName: ExitSceneButton
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1041,9 +1041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ed590df20c8f75498de76a694401df1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  loadingScreen: {fileID: 1821539853}
-  slider: {fileID: 1821539852}
-  progressText: {fileID: 1821539851}
+  SceneToUnload: 2
 --- !u!1 &1444589061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1868,33 +1866,3 @@ PrefabInstance:
         type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a446e9f31382ec24fb9067fbc6ae61b8, type: 3}
---- !u!114 &1821539851 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4584873092784462516, guid: a446e9f31382ec24fb9067fbc6ae61b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1821539850}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1821539852 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4584873092663044191, guid: a446e9f31382ec24fb9067fbc6ae61b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1821539850}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1821539853 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7869998577051325249, guid: a446e9f31382ec24fb9067fbc6ae61b8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1821539850}
-  m_PrefabAsset: {fileID: 0}
