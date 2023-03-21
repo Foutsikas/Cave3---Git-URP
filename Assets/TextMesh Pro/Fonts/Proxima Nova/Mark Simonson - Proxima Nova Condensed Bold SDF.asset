@@ -66,8 +66,8 @@ MonoBehaviour:
   m_SourceFontFileGUID: a8f06ad791c74e547930d2a0d372d111
   m_SourceFontFile_EditorRef: {fileID: 12800000, guid: a8f06ad791c74e547930d2a0d372d111,
     type: 3}
-  m_SourceFontFile: {fileID: 12800000, guid: a8f06ad791c74e547930d2a0d372d111, type: 3}
-  m_AtlasPopulationMode: 1
+  m_SourceFontFile: {fileID: 0}
+  m_AtlasPopulationMode: 0
   m_FaceInfo:
     m_FaceIndex: 0
     m_FamilyName: Proxima Nova Condensed
