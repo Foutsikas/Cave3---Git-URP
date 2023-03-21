@@ -1307,8 +1307,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7943590880644799809, guid: 3fba750a718626141a6534b99eeebc20,
         type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: -7943590880644799809, guid: 3fba750a718626141a6534b99eeebc20,
+        type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: -6177663881023411855, guid: 3fba750a718626141a6534b99eeebc20,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: -6177663881023411855, guid: 3fba750a718626141a6534b99eeebc20,
         type: 3}
@@ -1385,6 +1395,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[13]
       value: 
       objectReference: {fileID: 2100000, guid: 9ebcfa77b9a77594bb9514f9779047cf, type: 2}
+    - target: {fileID: -4456448576673419034, guid: 3fba750a718626141a6534b99eeebc20,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: -4456448576673419034, guid: 3fba750a718626141a6534b99eeebc20,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1510,10 +1525,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: Arhantrhropos_500K_Split
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3fba750a718626141a6534b99eeebc20,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2841900503910617257, guid: 3fba750a718626141a6534b99eeebc20,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 2841900503910617257, guid: 3fba750a718626141a6534b99eeebc20,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6397845051502458535, guid: 3fba750a718626141a6534b99eeebc20,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 6397845051502458535, guid: 3fba750a718626141a6534b99eeebc20,
         type: 3}
@@ -2719,10 +2749,19 @@ PrefabInstance:
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_text
-      value: "\u039A\u03C1\u03B1\u03BD\u03AF\u03BF \u03A0\u03C1\u03BF\u03CA\u03C3\u03C4\u03BF\u03C1\u03B9\u03BA\u03BF\u03CD
-        \u0391\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5\n\n\u0395\u0399\u0394\u039F\u03A3:
-        Homo heidelbergensis\n\n\u0397\u039B\u0399\u039A\u0399\u0391: 300 - 150 \u03A7\u03B9\u03BB\u03B9\u03AC\u03B4\u03C9\u03BD
-        \u03B5\u03C4\u03CE\u03BD"
+      value: "\u039A\u03C1\u03B1\u03BD\u03AF\u03BF \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5\n\n\u039A\u03C1\u03B1\u03BD\u03AF\u03BF
+        \u03B1\u03C1\u03C7\u03AD\u03B3\u03BF\u03BD\u03BF\u03C5 \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5
+        \u03C4\u03BF\u03C5 \u03B5\u03AF\u03B4\u03BF\u03C5\u03C2 Homo heidelbergensis.
+        \u03A7\u03B1\u03C1\u03B1\u03BA\u03C4\u03B7\u03C1\u03AF\u03B6\u03B5\u03C4\u03B1\u03B9
+        \u03B1\u03C0\u03CC \u03BC\u03B1\u03BA\u03C1\u03CC\u03C3\u03C4\u03B5\u03BD\u03BF
+        \u03C3\u03C7\u03AE\u03BC\u03B1, \u03C0\u03BB\u03B1\u03C4\u03CD \u03C0\u03C1\u03CC\u03C3\u03C9\u03C0\u03BF,
+        \u03AD\u03BD\u03C4\u03BF\u03BD\u03B1 \u03C5\u03C0\u03B5\u03C1\u03CC\u03C6\u03C1\u03C5\u03B1
+        \u03C4\u03CC\u03BE\u03B1 \u03BA\u03B1\u03B9 \u03B5\u03CD\u03C1\u03C9\u03C3\u03C4\u03B1
+        \u03BF\u03C3\u03C4\u03AC. \u03A4\u03BF \u03C3\u03C5\u03B3\u03BA\u03B5\u03BA\u03C1\u03B9\u03BC\u03AD\u03BD\u03BF
+        \u03AC\u03C4\u03BF\u03BC\u03BF \u03C5\u03C0\u03BF\u03BB\u03BF\u03B3\u03AF\u03B6\u03B5\u03C4\u03B1\u03B9
+        \u03CC\u03C4\u03B9 \u03AD\u03B6\u03B7\u03C3\u03B5 \u03C0\u03C1\u03B9\u03BD
+        \u03B1\u03C0\u03CC \u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5 250\u2013300
+        \u03C7\u03B9\u03BB\u03B9\u03AC\u03B4\u03B5\u03C2 \u03C7\u03C1\u03CC\u03BD\u03B9\u03B1."
       objectReference: {fileID: 0}
     - target: {fileID: 3044938409065956907, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
