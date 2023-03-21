@@ -168,11 +168,39 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6832507790848754616}
     m_Modifications:
+    - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_text
+      value: "\u039A\u03AD\u03BB\u03C5\u03C6\u03BF\u03C2 \u03C7\u03B5\u03BB\u03CE\u03BD\u03B1\u03C2"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_fontSizeMax
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_fontSizeMin
+      value: 50
+      objectReference: {fileID: 0}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_text
-      value: "\u039A\u03AD\u03BB\u03C5\u03C6\u03BF\u03C2 \u03A7\u03B5\u03BB\u03CE\u03BD\u03B1\u03C2\n\n\u0397\u039B\u0399\u039A\u0399\u0391:
-        150 - 50 \u03A7\u03B9\u03BB\u03B9\u03AC\u03B4\u03C9\u03BD \u0395\u03C4\u03CE\u03BD"
+      value: "\u039A\u03AD\u03BB\u03C5\u03C6\u03BF\u03C2 \u03C7\u03B5\u03BB\u03CE\u03BD\u03B1\u03C2
+        \u03C4\u03BF\u03C5 \u03B5\u03AF\u03B4\u03BF\u03C5\u03C2 Testudo graeca, \u03C4\u03BF
+        \u03BF\u03C0\u03BF\u03AF\u03BF \u03B6\u03B5\u03B9 \u03BC\u03AD\u03C7\u03C1\u03B9
+        \u03C3\u03AE\u03BC\u03B5\u03C1\u03B1 \u03C3\u03C4\u03B9\u03C2 \u03C0\u03B5\u03C1\u03B9\u03BC\u03B5\u03C3\u03BF\u03B3\u03B5\u03B9\u03B1\u03BA\u03AD\u03C2
+        \u03C0\u03B5\u03C1\u03B9\u03BF\u03C7\u03AD\u03C2. "
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
@@ -187,20 +215,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
+      propertyPath: m_fontSizeMax
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 7284902899962722870, guid: 80868a0771d67b245bf3f182e617549f,
+      objectReference: {fileID: 847286355509636723, guid: 3706c547488299e4a98599f224989eee,
         type: 2}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3044938409272094387, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: e2235797fb093644d8a2eea6594fb42b,
+        type: 3}
     - target: {fileID: 3044938409272094387, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_Color.a
@@ -346,7 +380,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 7284902899962722870, guid: 80868a0771d67b245bf3f182e617549f,
+      objectReference: {fileID: 8548079019254915733, guid: 2f3be34d907baa440a5e4dcf3577f789,
         type: 2}
     - target: {fileID: 5455698919838554262, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
@@ -382,6 +416,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &4823687511936752961 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2026865704367359548, guid: 43fd06c7ee789b540b7a50622335dd0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6832507790943542141}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2646231725049945286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4823687511936752961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:96863891ab4627246aaf27ea179eba17
+    m_TableEntryReference:
+      m_KeyId: 6429321596108800
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8985217606204865352}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
 --- !u!114 &8399278155166592130 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
@@ -498,3 +578,15 @@ MonoBehaviour:
   references:
     version: 2
     RefIds: []
+--- !u!114 &8985217606204865352 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 6832507790943542141}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4823687511936752961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -167,19 +167,50 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8990500508712926303}
     m_Modifications:
+    - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_text
+      value: "\u0392\u03C1\u03B1\u03C7\u03B9\u03CC\u03BD\u03B9\u03BF \u03BF\u03C3\u03C4\u03CC
+        \u03BB\u03B9\u03BF\u03BD\u03C4\u03B1\u03C1\u03B9\u03BF\u03CD"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 70.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_fontSizeMax
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_fontSizeMin
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_text
-      value: "\u0392\u03C1\u03B1\u03C7\u03B9\u03CC\u03BD\u03B9\u03BF \u039F\u03C3\u03C4\u03CC
-        \u039B\u03B9\u03BF\u03BD\u03C4\u03B1\u03C1\u03AF\u03BF\u03C5 \u03C4\u03BF\u03BD
-        \u03A3\u03C0\u03B7\u03BB\u03B1\u03B9\u03C9\u03BD\n\n\u0395\u0399\u0394\u039F\u03A3:
-        Panthera spelaea\n\n\u0397\u039B\u0399\u039A\u0399\u0391: 150 - 50 \u03A7\u03B9\u03BB\u03B9\u03AC\u03B4\u03C9\u03BD
-        \u0395\u03C4\u03CE\u03BD"
+      value: "\u039F\u03C3\u03C4\u03CC \u03C4\u03BF\u03C5 \u03B2\u03C1\u03B1\u03C7\u03AF\u03BF\u03BD\u03B1
+        \u03C0\u03BF\u03C5 \u03B1\u03BD\u03AE\u03BA\u03B5\u03B9 \u03C3\u03C4\u03BF
+        \u03BB\u03B9\u03BF\u03BD\u03C4\u03AC\u03C1\u03B9 \u03C4\u03C9\u03BD \u03C3\u03C0\u03B7\u03BB\u03B1\u03AF\u03C9\u03BD,
+        Panthera spelaea. \u03A0\u03C1\u03CC\u03BA\u03B5\u03B9\u03C4\u03B1\u03B9
+        \u03B3\u03B9\u03B1 \u03C0\u03BF\u03BB\u03CD \u03BC\u03B5\u03B3\u03B1\u03BB\u03CC\u03C3\u03C9\u03BC\u03BF
+        \u03BA\u03B1\u03B9 \u03B5\u03CD\u03C1\u03C9\u03C3\u03C4\u03BF \u03B5\u03AF\u03B4\u03BF\u03C2
+        \u03C0\u03BF\u03C5 \u03AD\u03B6\u03B7\u03C3\u03B5 \u03C3\u03C4\u03B7\u03BD
+        \u0395\u03C5\u03C1\u03B1\u03C3\u03AF\u03B1 \u03B1\u03C0\u03CC \u03C4\u03BF
+        \u039C\u03AD\u03C3\u03BF \u03A0\u03BB\u03B5\u03B9\u03C3\u03C4\u03CC\u03BA\u03B1\u03B9\u03BD\u03BF
+        (\u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5 0,7 \u03B5\u03BA\u03B1\u03C4\u03BF\u03BC\u03BC\u03CD\u03C1\u03B9\u03B1
+        \u03C7\u03C1\u03CC\u03BD\u03B9\u03B1 \u03C0\u03C1\u03B9\u03BD \u03B1\u03C0\u03CC
+        \u03C3\u03AE\u03BC\u03B5\u03C1\u03B1) \u03AD\u03C9\u03C2 \u03C3\u03C7\u03B5\u03B4\u03CC\u03BD
+        \u03C4\u03BF \u03C4\u03AD\u03BB\u03BF\u03C2 \u03C4\u03BF\u03C5 \u03A0\u03BB\u03B5\u03B9\u03C3\u03C4\u03BF\u03BA\u03B1\u03AF\u03BD\u03BF\u03C5
+        (\u03C0\u03B5\u03C1\u03AF\u03C0\u03BF\u03C5 14.000 \u03C7\u03C1\u03CC\u03BD\u03B9\u03B1
+        \u03C0\u03C1\u03B9\u03BD)."
       objectReference: {fileID: 0}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_fontSize
-      value: 55.45
+      value: 40.25
       objectReference: {fileID: 0}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
@@ -189,15 +220,31 @@ PrefabInstance:
         type: 2}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
+      propertyPath: m_fontSizeMax
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_fontSizeMin
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 7284902899962722870, guid: 80868a0771d67b245bf3f182e617549f,
+      objectReference: {fileID: 847286355509636723, guid: 3706c547488299e4a98599f224989eee,
         type: 2}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_hasFontAssetChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3044938409272094387, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 7859e663bb2fb8b42ae1bf7331c8ffc9,
+        type: 3}
     - target: {fileID: 3044938410320468757, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_Pivot.x
@@ -328,7 +375,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 7284902899962722870, guid: 80868a0771d67b245bf3f182e617549f,
+      objectReference: {fileID: 8548079019254915733, guid: 2f3be34d907baa440a5e4dcf3577f789,
         type: 2}
     - target: {fileID: 5455698919838554262, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
@@ -466,6 +513,64 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 3995297425543255935}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  references:
+    version: 2
+    RefIds: []
+--- !u!114 &6819781310477119452 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8990500508799881193}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6981831812200876501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &6981831812200876501 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2026865704367359548, guid: 43fd06c7ee789b540b7a50622335dd0b,
+    type: 3}
+  m_PrefabInstance: {fileID: 8990500508799881193}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5219082505255280097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6981831812200876501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:96863891ab4627246aaf27ea179eba17
+    m_TableEntryReference:
+      m_KeyId: 6428894112645120
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6819781310477119452}
         m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
         m_MethodName: set_text
         m_Mode: 0
