@@ -37,14 +37,10 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 646940065792
-    m_Localized: 'Prehistoric Human Skull
-
-
-      SPECIES: Homo heidelbergensis
-
-
-      AGE:
-      300 - 150 Thousand years old'
+    m_Localized: "Human skull\n\nSkull of an ancestral human, referred to the species
+      Homo heidelbergensis. It is characterised by elongated shape, wide facial area,
+      pronounced brow ridges, and robust bones. The age of this particular fossil
+      is estimated to about 250\u2013300 thousand years."
     m_Metadata:
       m_Items: []
   - m_Id: 1479966588928
@@ -52,32 +48,56 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2230579232768
-    m_Localized: 'PART OF HORSE SKULL
-
-
-      AGE: 150 - 50 Thousand years old'
+    m_Localized: Skull of a small-sized horse (onager) referred to the species Equus
+      hydruntinus, a very common occurrence in European Palaeolithic localities.
     m_Metadata:
       m_Items: []
   - m_Id: 2548306149376
-    m_Localized: 'Humerus of Cave Lion
-
-
-      SPECIES: Panthera spelaea
-
-
-      AGE:
-      150 - 50 Thousand years old'
+    m_Localized: Humerus of a cave lion, referred to the species Panthera spelaea.
+      This was a large-sized and massive species, which lived in Eurasia from the
+      Middle Pleistocene (about 0.7 million years ago), until the end of the Pleistocene
+      (about 14,000 years ago).
     m_Metadata:
       m_Items: []
   - m_Id: 2955354963968
-    m_Localized: 'Turtle Shell
-
-
-      AGE: 150 - 50 Thousand years old'
+    m_Localized: Shell of the tortoise Testudo graeca, a species that still exists
+      in the peri-Mediterranean regions.
     m_Metadata:
       m_Items: []
   - m_Id: 1011753012035584
     m_Localized: YOU WON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1908620263424
+    m_Localized: "Skull of a cave bear referred to the species Ursus deningeri. This
+      was a large-sized species that lived during the Early and Middle Pleistocene
+      (about 1.0\u20130.3 million years ago)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2152699396096
+    m_Localized: A rib that belongs to an elephant of the European Middle Pleistocene.
+      These elephants were very large sized. Their body mass is estimated as almost
+      double that of the extant African savannah elephant.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6427296149929984
+    m_Localized: Bear skull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6427801848774656
+    m_Localized: Elephant Rib
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6428512661667840
+    m_Localized: Horse skull
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6428894112645120
+    m_Localized: Lion humerus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6429321596108800
+    m_Localized: Tortoise shell
     m_Metadata:
       m_Items: []
   references:

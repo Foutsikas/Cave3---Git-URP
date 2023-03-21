@@ -63,6 +63,26 @@ MonoBehaviour:
     m_Key: YouWin
     m_Metadata:
       m_Items: []
+  - m_Id: 6427296149929984
+    m_Key: BearHeadUI_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6427801848774656
+    m_Key: ElephantRibUI_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6428512661667840
+    m_Key: HorseSkullUI_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6428894112645120
+    m_Key: LionBoneUI_Title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6429321596108800
+    m_Key: TurtleUI_Title
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
