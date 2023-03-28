@@ -170,7 +170,12 @@ PrefabInstance:
     - target: {fileID: 1999197177813289404, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 170
+      value: 160.4318
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999197177813289404, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 248.13588
       objectReference: {fileID: 0}
     - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
@@ -191,6 +196,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeMin
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938408945285112, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938408945285112, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 500.9588
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938408945285112, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -22.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938408945285112, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -95
       objectReference: {fileID: 0}
     - target: {fileID: 3044938408945285119, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
@@ -237,6 +262,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3044938409272094380, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 338.7006
       objectReference: {fileID: 0}
     - target: {fileID: 3044938409272094387, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
@@ -373,6 +403,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5455698919838554262, guid: 43fd06c7ee789b540b7a50622335dd0b,
+        type: 3}
+      propertyPath: m_text
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 5455698919838554262, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}

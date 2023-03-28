@@ -5,7 +5,6 @@ using System.Collections;
 public class TouchRotate : MonoBehaviour
 {
     [SerializeField] private InputAction pressed, axis, screenPos;
-    private Transform cam;
     public Camera GameCamera;
     private Vector2 rotation;
     // private bool rotateAllowed;
@@ -13,7 +12,6 @@ public class TouchRotate : MonoBehaviour
 
     private void Awake()
     {
-        cam = GameCamera.transform;
         screenPos.performed += context => { curScreenPos = context.ReadValue<Vector2>(); };
 		//pressed.performed += _ => { if(isClickedOn) StartCoroutine(Rotate()); };
         pressed.performed += _ => { Rotate(); };
@@ -41,5 +39,12 @@ public class TouchRotate : MonoBehaviour
         {
             x.Rotate();
         }
+    }
+
+    private void OnDisable()
+    {
+        screenPos.Disable();
+        pressed.Disable();
+        axis.Disable();
     }
 }
