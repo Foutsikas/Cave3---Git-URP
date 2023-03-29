@@ -18,7 +18,6 @@ public class ObjectSpawner : MonoBehaviour
     void Start()
     {
         NoDupes();
-        // RemoveIfSpawned();
     }
 
     void Update()
@@ -36,15 +35,7 @@ public class ObjectSpawner : MonoBehaviour
 
         for (int i = 0; i < spawnLocations.Length; i++)
         {
-            //Instantiate(Dupes[i], spawnLocations[i].transform.position, Quaternion.Euler(0,0,0));
             SpawnedItem [i] = Instantiate(Dupes[i], spawnLocations[i].transform.position, Quaternion.Euler(0,0,0));
-            // if (SpawnedItem[i].GetComponent<SceneButtonEnter>() != null)
-            // {
-            //     SpawnedItem[i].GetComponent<SceneButtonEnter>().JoystickSet = Joysticks;
-            // } else
-            // {
-            //     SpawnedItem[i].GetComponent<CloseUI>().JoystickSet = Joysticks;
-            // }
         }
     }
 
@@ -72,11 +63,4 @@ public class ObjectSpawner : MonoBehaviour
         yield return new WaitForSeconds(2);
         UI.SetActive(true);
     }
-    // void RemoveIfSpawned()
-    // {
-    //     foreach (var x in SpawnedItem)
-    //     {
-    //         Debug.Log("SpawnedItem ID = " + x.name);
-    //     }
-    // }
 }

@@ -21,13 +21,11 @@ public class PlayerSoundController : MonoBehaviour
             if (!audioSource.isPlaying)
             {
                 audioSource.PlayOneShot(walkingSoundEffect);
-                Debug.Log("Audio Played!");
             }
         }
         else
         {
             audioSource.Stop();
-            Debug.Log("Audio Stopped.");
         }
     }
 }

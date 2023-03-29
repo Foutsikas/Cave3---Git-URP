@@ -131,9 +131,7 @@ public class GameController : MonoBehaviour
 
         if(countCorrectGuesses == gameGuesses)
         {
-            Debug.Log("Game Finished");
             GameWin_Popup.SetActive(true);
-            Debug.Log("It took you " + countGuesses + " guesses to finish the game");
             GameOverText.text = "" + countGuesses + "";
         }
     }

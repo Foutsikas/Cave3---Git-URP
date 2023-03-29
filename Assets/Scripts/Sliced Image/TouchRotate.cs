@@ -7,17 +7,14 @@ public class TouchRotate : MonoBehaviour
     [SerializeField] private InputAction pressed, axis, screenPos;
     public Camera GameCamera;
     private Vector2 rotation;
-    // private bool rotateAllowed;
     private Vector3 curScreenPos;
 
     private void Awake()
     {
         screenPos.performed += context => { curScreenPos = context.ReadValue<Vector2>(); };
-		//pressed.performed += _ => { if(isClickedOn) StartCoroutine(Rotate()); };
         pressed.performed += _ => { Rotate(); };
         screenPos.Enable();
 		pressed.Enable();
-		// pressed.canceled += _ => { rotateAllowed = false; };
 		axis.performed += context => { rotation = context.ReadValue<Vector2>(); };
 		axis.Enable();
     }
@@ -34,7 +31,6 @@ public class TouchRotate : MonoBehaviour
             return;
         }
         var x = hit.collider.GetComponent<RotateSprite>();
-        Debug.Log("Rotatin2: " + x);
         if(x)
         {
             x.Rotate();
