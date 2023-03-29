@@ -2761,7 +2761,7 @@ MonoBehaviour:
     m_TableReference:
       m_TableCollectionName: GUID:96863891ab4627246aaf27ea179eba17
     m_TableEntryReference:
-      m_KeyId: 6428512661667840
+      m_KeyId: 9301604874452992
       m_Key: 
     m_FallbackState: 0
     m_WaitForCompletion: 0
@@ -2807,7 +2807,7 @@ PrefabInstance:
     - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
       propertyPath: m_text
-      value: "\u039A\u03C1\u03B1\u03BD\u03AF\u03BF \u0391\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5"
+      value: "\u039A\u03C1\u03B1\u03BD\u03AF\u03BF \u03B1\u03BD\u03B8\u03C1\u03CE\u03C0\u03BF\u03C5"
       objectReference: {fileID: 0}
     - target: {fileID: 2477004448756031541, guid: 43fd06c7ee789b540b7a50622335dd0b,
         type: 3}
