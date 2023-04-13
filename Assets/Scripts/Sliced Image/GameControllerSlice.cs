@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Linq;
+using System.Collections;
 public class GameControllerSlice : MonoBehaviour
 {
     [SerializeField] private GameObject[] PicturePieces;
@@ -37,7 +38,13 @@ public class GameControllerSlice : MonoBehaviour
         if (PicturePieces.All(pic => pic.transform.up == Vector3.up))
         {
             youWin = true;
-            WinPanel.SetActive(true);
+            StartCoroutine(Timer());
         }
+    }
+
+    IEnumerator Timer()
+    {
+        yield return new WaitForSeconds(1.5f);
+        WinPanel.SetActive(true);
     }
 }
