@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4426662894947403195}
   m_Layer: 9
   m_Name: Horse_Skull_131
-  m_TagString: Untagged
+  m_TagString: Selectable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
