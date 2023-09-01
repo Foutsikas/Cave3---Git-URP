@@ -24,14 +24,20 @@ public class SelectionManager : MonoBehaviour
         {
             _selection = hit.transform;
             selectionRenderer = _selection.GetComponent<Renderer>();
-            selectionRenderer?.materials[1].SetFloat("_Alpha", 1);
-            selectionRenderer?.materials[1].SetColor("_Color", highlightColor);
-            CollectButton.SetActive(true);
+            if (selectionRenderer != null)
+            {
+                selectionRenderer.materials[1].SetFloat("_Alpha", 1);
+                selectionRenderer.materials[1].SetColor("_Color", highlightColor);
+                CollectButton.SetActive(true);
+            }
         }
         else if (_selection != null)
         {
             selectionRenderer = _selection.GetComponent<Renderer>();
-            selectionRenderer.materials[1].SetColor("_Color", color);
+            if (selectionRenderer != null)
+            {
+                selectionRenderer.materials[1].SetColor("_Color", color);
+            }
             _selection = null;
         }
 
@@ -40,13 +46,16 @@ public class SelectionManager : MonoBehaviour
         HashSet<Collider> newHighlightedObjects = new HashSet<Collider>(); // new hashset to keep track of new highlighted objects
         foreach (Collider collider in colliders)
         {
-            if (collider.CompareTag("Selectable"))
+            if (collider != null && collider.CompareTag("Selectable"))
             {
                 if (!highlightedObjects.Contains(collider))
                 {
                     Renderer renderer = collider.GetComponent<Renderer>();
-                    renderer?.materials[1].SetFloat("_Alpha", 1);
-                    renderer?.materials[1].SetColor("_Color", color);
+                    if (renderer != null)
+                    {
+                        renderer.materials[1].SetFloat("_Alpha", 1);
+                        renderer.materials[1].SetColor("_Color", color);
+                    }
                 }
                 newHighlightedObjects.Add(collider);
             }
@@ -54,10 +63,13 @@ public class SelectionManager : MonoBehaviour
         // De-highlight objects that are no longer in the selection radius
         foreach (Collider collider in highlightedObjects)
         {
-            if (!newHighlightedObjects.Contains(collider))
+            if (collider != null && !newHighlightedObjects.Contains(collider))
             {
                 Renderer renderer = collider.GetComponent<Renderer>();
-                renderer?.materials[1].SetFloat("_Alpha", 0);
+                if (renderer != null)
+                {
+                    renderer.materials[1].SetFloat("_Alpha", 0);
+                }
             }
         }
         highlightedObjects = newHighlightedObjects;
@@ -75,7 +87,7 @@ public class SelectionManager : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit hit, maxDistance, LayerMask.GetMask("Selectable")))
         {
             BoxCollider bc = hit.collider as BoxCollider;
-            if (bc != null)
+            if (bc != null && bc.gameObject != null)
             {
                 Destroy(bc.gameObject);
                 ObjectSpawner.itemCounter++;
