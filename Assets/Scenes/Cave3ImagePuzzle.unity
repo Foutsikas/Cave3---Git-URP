@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1301,6 +1301,7 @@ MonoBehaviour:
     type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!114 &865786246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3661,7 +3662,7 @@ MonoBehaviour:
   pressed:
     m_Name: Pressed
     m_Type: 0
-    m_ExpectedControlType: 
+    m_ExpectedControlType: Touch
     m_Id: 451c7613-0c04-4eee-80c0-9855daa4bc1a
     m_Processors: 
     m_Interactions: 
