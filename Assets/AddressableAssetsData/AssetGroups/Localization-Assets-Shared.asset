@@ -33,6 +33,10 @@ MonoBehaviour:
     m_Address: Assets/Localization/Tables/QuizTable Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: b8865bfde341315419ec3d9141c1520d
+    m_Address: Assets/Localization/Tables/Question Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 27634d5098787cf4396e2d7603305add, type: 2}
   m_SchemaSet:

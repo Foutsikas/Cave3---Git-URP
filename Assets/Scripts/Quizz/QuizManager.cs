@@ -15,6 +15,8 @@ public class QuizManager : MonoBehaviour
     public GameObject GameOverPanel;
 
     public TMP_Text ScoreTxt;
+    public TMP_Text QuestionNumberTxt; // Add a reference to display the question number
+    public TMP_Text TotalQuestionsTxt; // Add a reference to display the total questions
 
     int TotalQuestions = 0;
     public int Score;
@@ -85,6 +87,10 @@ public class QuizManager : MonoBehaviour
             QuestionTxt.GetComponent<LocalizeStringEvent>().StringReference.SetReference("QuizTable", QnA[currentQuestion].QuestionKey);
 
             SetAnswers();
+
+            // Update the question number and total questions text
+            QuestionNumberTxt.text = "" + (TotalQuestions - QnA.Count + 1); // Calculate current question number
+            TotalQuestionsTxt.text = "" + TotalQuestions;
         }
         else
         {
