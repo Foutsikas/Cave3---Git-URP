@@ -11,5 +11,6 @@ public class ReturnToMenu : MonoBehaviour
         ObjectSpawner.itemCounter = 0; // reset the value of itemCounter
         SceneManager.UnloadSceneAsync(SceneToUnload);
         SceneManager.LoadScene(SceneToLoad);
+        Time.timeScale = 1;
     }
 }
